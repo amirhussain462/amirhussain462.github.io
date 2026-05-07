@@ -1,77 +1,17 @@
 backend:
-  name: github
-  repo: amirhussain462/amirhussain-portfolio
+  name: git-gateway
   branch: main
-  # GitHub Pages needs an OAuth provider for Decap CMS login.
-  # Easiest free method: deploy this repo to Netlify and enable Identity + Git Gateway.
 
-media_folder: "assets/uploads"
-public_folder: "/amirhussain-portfolio/assets/uploads"
+media_folder: "assets/images/uploads"
+public_folder: "/assets/images/uploads"
 
 collections:
-  - name: "website"
-    label: "Website Content"
-    files:
-      - label: "Portfolio Content"
-        name: "site"
-        file: "data/site.json"
-        format: "json"
-        fields:
-          - label: "Profile"
-            name: "profile"
-            widget: "object"
-            fields:
-              - {label: "Name", name: "name", widget: "string"}
-              - {label: "Title", name: "title", widget: "string"}
-              - {label: "Headline", name: "headline", widget: "string"}
-              - {label: "Intro", name: "intro", widget: "text"}
-              - {label: "Email", name: "email", widget: "string", required: false}
-              - {label: "Phone", name: "phone", widget: "string", required: false}
-              - {label: "Location", name: "location", widget: "string", required: false}
-              - {label: "LinkedIn", name: "linkedin", widget: "string", required: false}
-              - {label: "Profile Photo", name: "photo", widget: "image", required: false}
-              - {label: "Hero Background", name: "heroImage", widget: "image", required: false}
-          - {label: "About Text", name: "about", widget: "text"}
-          - label: "Stats"
-            name: "stats"
-            widget: "list"
-            fields:
-              - {label: "Number", name: "number", widget: "string"}
-              - {label: "Label", name: "label", widget: "string"}
-          - label: "Expertise"
-            name: "expertise"
-            widget: "list"
-            fields:
-              - {label: "Title", name: "title", widget: "string"}
-              - {label: "Text", name: "text", widget: "text"}
-          - label: "Projects"
-            name: "projects"
-            widget: "list"
-            fields:
-              - {label: "Title", name: "title", widget: "string"}
-              - {label: "Category", name: "category", widget: "string", required: false}
-              - {label: "Image", name: "image", widget: "image", required: false}
-              - {label: "Challenge", name: "challenge", widget: "text"}
-              - {label: "Solution", name: "solution", widget: "text"}
-              - {label: "Result", name: "result", widget: "text"}
-          - label: "Experience"
-            name: "experience"
-            widget: "list"
-            fields:
-              - {label: "Role", name: "role", widget: "string"}
-              - {label: "Company", name: "company", widget: "string"}
-              - {label: "Period", name: "period", widget: "string"}
-              - {label: "Text", name: "text", widget: "text"}
-          - label: "Certifications"
-            name: "certifications"
-            widget: "list"
-            fields:
-              - {label: "Title", name: "title", widget: "string"}
-              - {label: "Certificate File", name: "file", widget: "file", required: false}
-              - {label: "Preview Image", name: "image", widget: "image", required: false}
-          - label: "Gallery"
-            name: "gallery"
-            widget: "list"
-            fields:
-              - {label: "Title", name: "title", widget: "string"}
-              - {label: "Image", name: "image", widget: "image"}
+  - name: "projects"
+    label: "Projects"
+    folder: "content/projects"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Project Title", name: "title", widget: "string" }
+      - { label: "Description", name: "body", widget: "markdown" }
+      - { label: "Project Image", name: "image", widget: "image" }
