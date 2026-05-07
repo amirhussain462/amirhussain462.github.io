@@ -1,0 +1,53 @@
+{
+  "profile": {
+    "name": "Amir Hussain Shaik",
+    "title": "Senior Electrical & Automation Engineer",
+    "headline": "Industrial Automation | Material Handling Systems | Project Execution | Lean Six Sigma Black Belt",
+    "intro": "Delivering reliable engineering solutions across Saudi Arabia, UAE and India with 10+ years of experience in electro-mechanical systems, conveyor solutions, automated storage systems and mission-critical maintenance operations.",
+    "email": "your-email@example.com",
+    "phone": "+966 / +971 - update your number",
+    "location": "Riyadh, Saudi Arabia | Available for KSA & UAE projects",
+    "linkedin": "https://www.linkedin.com/in/your-profile",
+    "photo": "assets/images/formal-profile.jpg",
+    "heroImage": "assets/images/header-bg.jpg"
+  },
+  "stats": [
+    {"number":"10+","label":"Years Engineering Experience"},
+    {"number":"3","label":"Countries: KSA, UAE & India"},
+    {"number":"50+","label":"Projects & Site Activities"},
+    {"number":"24/7","label":"Critical Site Support Mindset"}
+  ],
+  "about": "I am an Electrical & Maintenance Engineer with strong hands-on experience in industrial automation, material handling systems, conveyor systems, car parking solutions, cranes, ETVs and automated storage systems. My work covers installation, commissioning, preventive maintenance, troubleshooting, site coordination, spare parts planning, technical reporting, vendor coordination and client communication. I combine field execution with Lean Six Sigma thinking to improve reliability, reduce downtime and deliver practical engineering solutions in live operational environments.",
+  "expertise": [
+    {"title":"Industrial Automation & Controls","text":"PLC, SCADA, relay logic, VFDs, sensors, control panels and troubleshooting of automation systems."},
+    {"title":"Material Handling Systems","text":"Conveyors, ETVs, electric monorail systems, automated storage systems, workstations and logistics equipment."},
+    {"title":"Installation & Commissioning","text":"Site execution, equipment alignment, electrical works, testing, handover and operational support."},
+    {"title":"Maintenance Engineering","text":"Preventive maintenance, corrective maintenance, breakdown response, root-cause analysis and reliability improvement."},
+    {"title":"Project & Site Management","text":"Manpower coordination, documentation, client communication, vendor support, spare parts and safety compliance."},
+    {"title":"Lean Six Sigma Improvement","text":"Certified Yellow, Green and Black Belt with focus on process improvement, downtime reduction and structured problem solving."}
+  ],
+  "projects": [
+    {"title":"DHL Riyadh Conveyor Optimization","category":"Conveyor Systems","image":"assets/images/conveyor1.jpg","challenge":"Shipment transfer instability, belt tracking issues and operational downtime risk.","solution":"Corrected conveyor alignment, reviewed drive behavior, optimized guide/support arrangement and supported maintenance planning.","result":"Improved operational stability, reduced stoppages and strengthened system reliability for live logistics operations."},
+    {"title":"Kardex Automated Sorting System Support","category":"Automated Storage / Sorting","image":"assets/images/kardex1.jpg","challenge":"Complex automated sorting equipment requiring installation support, testing and operational readiness.","solution":"Supported installation, testing, snag reporting, inventory handling, site coordination and technical follow-up.","result":"Helped achieve smooth project completion and reliable system handover."},
+    {"title":"Car Turntable Maintenance – Private Villa Riyadh","category":"Car Parking Solutions","image":"assets/images/car_turntable1.jpg","challenge":"Specialized residential car turntable requiring planned maintenance and dependable operation.","solution":"Managed bi-annual maintenance, inspections, adjustment, troubleshooting and client coordination.","result":"Maintained reliable operation and client confidence through structured service support."}
+  ],
+  "experience": [
+    {"role":"Electrical & Maintenance Engineer / Lead Engineer","company":"ALS Logistic Solutions","period":"Current","text":"Managing industrial automation and material handling systems across client sites, including installation, maintenance, troubleshooting, documentation, spare parts planning, client coordination and team support."},
+    {"role":"Senior Technician / Shift & Maintenance Support","company":"Emirates Flight Catering / EKFC","period":"Previous Role","text":"Handled shift activities, preventive maintenance, corrective maintenance, reporting, SOP compliance and support to junior technicians in live operational environments."},
+    {"role":"Technician","company":"International Food and Consumable Corporation","period":"First Engineering Role","text":"Worked on PLC basics, SCADA support, motor inverter configuration, control systems, maintenance records and electro-mechanical troubleshooting."}
+  ],
+  "certifications": [
+    {"title":"Lean Six Sigma Black Belt","file":"assets/certificates/lean-six-sigma-black-belt.pdf","image":"assets/images/cert-black-belt.jpg"},
+    {"title":"Lean Six Sigma Green Belt","file":"assets/certificates/lean-six-sigma-green-belt.pdf","image":"assets/images/cert-green-belt.jpg"},
+    {"title":"Lean Six Sigma Yellow Belt","file":"assets/certificates/lean-six-sigma-yellow-belt.pdf","image":"assets/images/cert-yellow-belt.jpg"},
+    {"title":"IOSH / NEBOSH HSW","file":"assets/certificates/IOSH-MS-and-NEBOSH-HSW-certificates.pdf","image":"assets/images/cert-iosh-nebosh.jpg"}
+  ],
+  "gallery": [
+    {"title":"Conveyor Systems","image":"assets/images/conveyor2.jpg"},
+    {"title":"Storage Systems","image":"assets/images/kardex2.jpg"},
+    {"title":"Site Management","image":"assets/images/site_management1.jpg"},
+    {"title":"Car Parking Systems","image":"assets/images/car_parking1.jpg"},
+    {"title":"Automation Projects","image":"assets/images/experience1.jpg"},
+    {"title":"Car Turntable","image":"assets/images/car_turntable2.jpg"}
+  ]
+}
