@@ -275,32 +275,37 @@
     </div>
   </footer>
 
-  <!-- MAIN JS -->
-  <script src="assets/js/script.js"></script>
-
   <!-- NETLIFY IDENTITY FINAL FIX -->
-  <script>
+<!-- MAIN JS -->
+<script src="assets/js/script.js"></script>
+
+<!-- NETLIFY IDENTITY FINAL FIX -->
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
     if (window.netlifyIdentity) {
+      window.netlifyIdentity.init();
 
-      window.netlifyIdentity.on("init", user => {
+      setTimeout(function () {
+        const hash = window.location.hash;
 
-        if (!user && window.location.hash.includes("confirmation_token")) {
-          window.netlifyIdentity.open("signup");
-        }
-
-        if (!user && window.location.hash.includes("recovery_token")) {
+        if (hash && hash.includes("recovery_token")) {
           window.netlifyIdentity.open("recovery");
         }
 
-      });
+        if (hash && (
+          hash.includes("confirmation_token") ||
+          hash.includes("invite_token")
+        )) {
+          window.netlifyIdentity.open("signup");
+        }
+      }, 1000);
 
-      window.netlifyIdentity.on("login", () => {
-        document.location.href =
+      window.netlifyIdentity.on("login", function () {
+        window.location.href =
           "https://zesty-cat-159197.netlify.app/admin/index.html";
       });
-
     }
-  </script>
-
+  });
+</script>
 </body>
 </html>
