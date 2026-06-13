@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects | Amir Hussain Shaik</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="navbar">
+    <a href="index.html" class="logo">Amir Hussain Shaik</a>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="projects.html" class="active">Projects</a>
+      <a href="documents/Amir_Hussain_CV.pdf" target="_blank">CV</a>
+      <a href="documents/Engineering_Project_Portfolio.pdf" target="_blank">Portfolio PDF</a>
+    </div>
+  </nav>
+</header>
+
+<main>
+  <section class="page-hero">
+    <p class="eyebrow">Engineering Portfolio</p>
+    <h1>Featured Engineering Projects</h1>
+    <p>
+      Case studies covering industrial automation, airport cargo systems, ASRS, EMS,
+      AGVs, automated parking systems, hydraulic systems, reliability engineering,
+      commissioning, and troubleshooting.
+    </p>
+  </section>
+
+  <section class="project-controls">
+    <input type="text" id="projectSearch" placeholder="Search projects, technologies, systems..." />
+    <div id="filterChips" class="filter-chips"></div>
+  </section>
+
+  <section id="projectsGrid" class="projects-grid"></section>
+</main>
+
+<div id="projectModal" class="project-modal">
+  <div class="modal-content">
+    <button id="closeModal" class="close-btn">&times;</button>
+    <div id="modalBody"></div>
+  </div>
+</div>
+
+<footer class="site-footer">
+  <p>Engineering Project Portfolio | Amir Hussain Shaik</p>
+</footer>
+
+<script src="assets/js/projectData.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
