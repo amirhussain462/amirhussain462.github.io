@@ -1,0 +1,25 @@
+Project Number:
+3
+
+Project Name:
+ETV Rail Track Renewal & Asset Recovery Program
+
+Hero Image:
+ETV_Travel_Rail_Replacement_After_Completion.png
+
+Status:
+Complete
+
+Gallery Images:
+4
+
+Videos:
+0
+
+Future Additions:
+- Rail replacement activity video
+- ETV travel demonstration after renewal
+- Welding and alignment process documentation
+
+Last Updated:
+10-Jun-2026
