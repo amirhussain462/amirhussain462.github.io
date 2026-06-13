@@ -1,0 +1,25 @@
+Project Number:
+4
+
+Project Name:
+ETV Hydraulic Load Holding System Restoration
+
+Hero Image:
+Diagnosed_Leaked_Hydraulic_Pilot_Operated_CounterBalance...png
+
+Status:
+Ready for Website
+
+Gallery Images:
+3
+
+Videos:
+0
+
+Last Updated:
+10-Jun-2026
+
+Future Additions:
+- Hydraulic pressure testing video
+- Manifold internal inspection photos
+- Load holding test demonstration
