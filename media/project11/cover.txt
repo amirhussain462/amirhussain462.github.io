@@ -1,0 +1,25 @@
+Project Number:
+11
+
+Project Name:
+Automated Storage & Retrieval System (ASRS) Operations, Reliability & Troubleshooting Program
+
+Hero Image:
+Miniload_Crane_Telescope.png
+
+Status:
+Ready for Website
+
+Gallery Images:
+7
+
+Videos:
+0
+
+Last Updated:
+10-Jun-2026
+
+Future Additions:
+- Miniload operation video
+- Crane movement sequence
+- Fault recovery demonstration

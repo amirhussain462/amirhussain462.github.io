@@ -1,0 +1,25 @@
+Project Number:
+13
+
+Project Name:
+Industrial Electric Material Handling Fleet Reliability & Safety Program
+
+Hero Image:
+EPW_HoistingIssue_Diagnosed&Rectified.png
+
+Status:
+Ready for Website
+
+Gallery Images:
+3
+
+Videos:
+0
+
+Last Updated:
+10-Jun-2026
+
+Future Additions:
+- EPW operational video
+- Fleet maintenance activities
+- Safety inspection documentation

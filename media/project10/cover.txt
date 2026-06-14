@@ -1,0 +1,25 @@
+Project Number:
+10
+
+Project Name:
+Autonomous Guided Vehicle (AGV) Fleet Operations & Reliability Support
+
+Hero Image:
+AGV-Automated_Guided_Vehicle.png
+
+Status:
+Ready for Website
+
+Gallery Images:
+5
+
+Videos:
+0
+
+Last Updated:
+10-Jun-2026
+
+Future Additions:
+- AGV navigation video
+- Battery replacement procedure
+- Fleet operation footage

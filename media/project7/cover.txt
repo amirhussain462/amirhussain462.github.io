@@ -1,0 +1,25 @@
+Project Number:
+7
+
+Project Name:
+Roller Deck Drive System Reliability Improvement & Motor Refurbishment Program
+
+Hero Image:
+RollerDeck_Motor_Replacement.png
+
+Status:
+Ready for Website
+
+Gallery Images:
+3
+
+Videos:
+0
+
+Last Updated:
+10-Jun-2026
+
+Future Additions:
+- Motor installation video
+- Shaft alignment procedure
+- Operational testing footage

@@ -1,0 +1,25 @@
+Project Number:
+8
+
+Project Name:
+Automated Vehicle Lift Installation & Commissioning Project
+
+Hero Image:
+CarLift_During_Commissioning.png
+
+Status:
+Ready for Website
+
+Gallery Images:
+8
+
+Videos:
+0
+
+Last Updated:
+10-Jun-2026
+
+Future Additions:
+- Lift commissioning video
+- Platform movement demonstration
+- Safety testing sequence

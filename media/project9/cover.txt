@@ -1,0 +1,25 @@
+Project Number:
+9
+
+Project Name:
+Automated Vertical Storage & Retrieval System Installation Project
+
+Hero Image:
+Kardex_After_Installation.png
+
+Status:
+Ready for Website
+
+Gallery Images:
+3
+
+Videos:
+0
+
+Last Updated:
+10-Jun-2026
+
+Future Additions:
+- Kardex operational video
+- Installation progress photos
+- Commissioning demonstration

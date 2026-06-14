@@ -1,0 +1,25 @@
+Project Number:
+12
+
+Project Name:
+Automated Electric Monorail System (EMS) Operations, Reliability & Maintenance Program
+
+Hero Image:
+Monorail_Vehicle_Remote_Control.png
+
+Status:
+Ready for Website
+
+Gallery Images:
+7
+
+Videos:
+0
+
+Last Updated:
+10-Jun-2026
+
+Future Additions:
+- EMS vehicle movement video
+- Hoist operation sequence
+- Maintenance activity recording

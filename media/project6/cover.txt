@@ -1,0 +1,25 @@
+Project Number:
+6
+
+Project Name:
+Roller Deck Hydraulic Cylinder Reliability Improvement Program
+
+Hero Image:
+RollerDeck_LiftingCylinder_AfterRepair.png
+
+Status:
+Ready for Website
+
+Gallery Images:
+9
+
+Videos:
+0
+
+Last Updated:
+10-Jun-2026
+
+Future Additions:
+- Cylinder removal video
+- Hydraulic bleeding procedure
+- Functional lifting test

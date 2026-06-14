@@ -1,0 +1,25 @@
+Project Number:
+5
+
+Project Name:
+ETV Current Collector Replacement & Power Collection System Restoration
+
+Hero Image:
+ETV_BusBar_CurrentCollectors_After_Replacement.png
+
+Status:
+Ready for Website
+
+Gallery Images:
+2
+
+Videos:
+0
+
+Last Updated:
+10-Jun-2026
+
+Future Additions:
+- Current collector replacement video
+- Busbar inspection activity
+- Electrical testing after replacement
