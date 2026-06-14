@@ -4,7 +4,7 @@ const profile = {
   title: "Electrical, Automation & Reliability Engineer | Project Execution Lead",
 
   subtitle:
-    "Industrial Automation | Material Handling Systems | Airport Cargo Systems | ASRS | EMS | AGV | Automated Parking | Reliability Engineering",
+    "Industrial Automation • Airport Cargo Systems • Material Handling • ASRS • EMS • AGV • Automated Parking • Reliability Engineering",
 
   email: "amirhussain462@gmail.com",
 
