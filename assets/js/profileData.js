@@ -1,10 +1,10 @@
 const profile = {
   name: "Amir Hussain Shaik",
 
-  title: "Electrical, Automation & Reliability Engineer | Project Execution Lead",
+  title: "Electrical & Automation Engineer | Project Execution Lead",
 
-  subtitle:
-    "Industrial Automation • Airport Cargo Systems • Material Handling • ASRS • EMS • AGV • Automated Parking • Reliability Engineering",
+subtitle:
+  "Project Execution | Material Handling Systems | Airport Cargo Systems | Conveyors | Reliability | Electromechanical Troubleshooting",
 
   email: "amirhussain462@gmail.com",
 
