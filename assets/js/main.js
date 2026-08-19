@@ -71,9 +71,15 @@ function renderCertifications() {
 
 const allCategories = [
   "All",
-  ...new Set(projects.flatMap(project => safeArray(project.category)))
+  "Project Execution",
+  "Material Handling",
+  "Troubleshooting",
+  "Reliability",
+  "Electrical",
+  "Hydraulic",
+  "Maintenance",
+  "Installation"
 ];
-
 function renderFilters() {
   if (!filterChips) return;
 
@@ -104,12 +110,14 @@ function renderProjects() {
     return matchesSearch && matchesFilter;
   });
 
-  grid.innerHTML = filteredProjects.map(project => createProjectCard(project)).join("");
+  grid.innerHTML = filteredProjects
+  .map((project, index) => createProjectCard(project, index + 1))
+  .join("");
 
   observeRevealItems();
 }
 
-function createProjectCard(project) {
+function createProjectCard(project, displayNumber) {
   return `
     <article class="project-card reveal-item">
       <div class="project-image-wrap">
@@ -122,7 +130,7 @@ function createProjectCard(project) {
       </div>
 
       <div class="project-card-content">
-        <span class="project-number">Project ${project.id}</span>
+        <span class="project-number">Project ${displayNumber}</span>
         <h3>${project.title}</h3>
         <p>${project.summary}</p>
 
@@ -130,9 +138,13 @@ function createProjectCard(project) {
           ${safeArray(project.category).slice(0, 4).map(tag => `<span>${tag}</span>`).join("")}
         </div>
 
-        <button class="project-btn" data-project-id="${project.id}">
-          View Case Study
-        </button>
+        <button
+  class="project-btn"
+  data-project-id="${project.id}"
+  data-display-number="${displayNumber}"
+>
+  View Case Study
+</button>
       </div>
     </article>
   `;
@@ -140,7 +152,7 @@ function createProjectCard(project) {
 
 /* ---------------- PROJECT MODAL ---------------- */
 
-function openProject(id) {
+function openProject(id, displayNumber) {
   const project = projects.find(item => String(item.id) === String(id));
   if (!project || !modal || !modalBody) return;
 
@@ -150,11 +162,18 @@ function openProject(id) {
 
   modalBody.innerHTML = `
     <div class="modal-hero">
-      <img src="${project.folder}${project.hero}" alt="${project.title}">
-    </div>
+  <img
+    src="${project.folder}${project.hero}"
+    alt="${project.title}"
+    style="
+      object-fit: ${safeText(project.heroFit, "cover")};
+      object-position: ${safeText(project.heroPosition, "center center")};
+    "
+  >
+</div>
 
     <div class="modal-project-header premium-project-header">
-      <span>📁 PROJECT ${String(project.id).padStart(2, "0")}</span>
+      <span>📁 PROJECT ${String(displayNumber).padStart(2, "0")}</span>
       <h2>${project.title}</h2>
 
       <div class="modal-header-tags">
@@ -186,29 +205,28 @@ function renderProjectInfoCard(project) {
     <section class="modal-section project-info-section">
       <div class="project-info-grid">
         <div>
-          <span>Domain</span>
+          <span>Primary Area</span>
           <strong>${categories[0] || "Engineering"}</strong>
         </div>
 
         <div>
-          <span>Discipline</span>
-          <strong>${categories[1] || "Automation"}</strong>
+          <span>Focus</span>
+          <strong>${categories[1] || "Technical"}</strong>
         </div>
 
         <div>
-          <span>Role</span>
-          <strong>Execution & Reliability</strong>
+          <span>My Contribution</span>
+          <strong>${safeText(project.contribution, "Engineering Support")}</strong>
         </div>
 
         <div>
-          <span>Status</span>
-          <strong>Successfully Completed</strong>
+          <span>Environment</span>
+          <strong>${safeText(project.environment, "Project / Operational Site")}</strong>
         </div>
       </div>
     </section>
   `;
 }
-
 function renderRichProjectSections(project) {
   const sections = [];
 
@@ -450,10 +468,13 @@ function observeRevealItems() {
 
 document.addEventListener("click", event => {
   const projectButton = event.target.closest("[data-project-id]");
-  if (projectButton) {
-    openProject(projectButton.dataset.projectId);
-    return;
-  }
+if (projectButton) {
+  openProject(
+    projectButton.dataset.projectId,
+    projectButton.dataset.displayNumber
+  );
+  return;
+}
 
   const galleryItem = event.target.closest("[data-lightbox-src]");
   if (galleryItem) {
