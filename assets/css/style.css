@@ -651,6 +651,13 @@ a {
   cursor: pointer;
 }
 
+.modal-hero {
+  background: var(--bg-soft);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .modal-hero img {
   width: 100%;
   height: 430px;
