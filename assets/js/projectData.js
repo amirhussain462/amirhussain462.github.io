@@ -1,370 +1,419 @@
 const projects = [
   {
   id: 1,
-  title: "Airport Cargo Conveyor Reconfiguration & Phased Migration Project",
-  category: ["Airport", "Conveyor", "Automation", "Project Execution"],
-  folder: "media/project1/",
-  hero: "New_Modified_Conveyor_Layout.png",
+  title: "Airport Cargo Conveyor Reconfiguration & Phased Migration",
 
-  summary:
-    "Phased conveyor reconfiguration and special screening route creation under live airport cargo operations.",
+category: ["Airport", "Conveyor", "Project Execution", "Reliability"],
 
-  overview:
-    "A major airport cargo handling facility initiated a phased modernization program involving the replacement of an existing conveyor network with a new layout, upgraded automation, and enhanced operational capability. Since cargo operations had to remain active, the work required controlled execution, reuse of available assets, and careful commissioning without creating extended operational disruption.",
+folder: "media/project1/",
 
-  challenge:
-    "The main challenge was to modify, dismantle, reposition, electrically upgrade, and recommission conveyor sections while the cargo facility remained operational. A dedicated special screening route also had to be created using existing conveyor assets, requiring practical site engineering, electrical integration, and phased testing under live-site constraints.",
+hero: "New_Modified_Conveyor_Layout.png",
+heroFit: "contain",
+heroPosition: "center center",
+contribution: "Project Execution & Site Coordination",
+environment: "Live Airport Cargo Operations",
+summary:
+  "Phased dismantling, reuse and reconfiguration of existing conveyor assets to support revised cargo-routing requirements within a live airport operation.",
 
-  engineering:
-    "The project was approached as a phased migration rather than a full shutdown replacement. Existing conveyor sections, support structures, drives, accessories, and control components were assessed for reuse. Electrical modifications were planned to support revised conveyor routing, additional motor protection, VFD integration, and safe operation while maintaining maintainability for future automation expansion.",
+overview:
+  "An airport cargo facility required changes to its existing conveyor arrangement as part of a phased modernization program. Selected conveyor sections had to be dismantled, preserved for reuse and reconfigured to support revised cargo-routing and screening requirements while ongoing operations continued around the work area.",
 
-  execution: [
-    "Identified and dismantled surplus conveyor sections not required for current operations.",
-    "Preserved reusable conveyor assets, accessories, and structural components for future project phases.",
-    "Reconfigured existing conveyor routes to create a dedicated special screening path.",
-    "Modified conveyor structures and layouts to match revised operational requirements.",
-    "Integrated additional electrical equipment including motor protection devices, VFDs, and control components.",
-    "Installed and parameterized new VFD and speed control arrangements for modified conveyors.",
-    "Completed mechanical checks, belt splicing, wiring modifications, and commissioning verification.",
-    "Maintained cargo handling continuity throughout phased modification activities."
-  ],
+challenge:
+  "The main challenge was carrying out mechanical and electrical modifications without creating unnecessary disruption to the operating cargo system. Removed conveyor sections also had existing power and control connections that required careful identification, isolation and signal handling so that dismantling activities did not introduce false alarms or unintended effects on the remaining system.",
 
-  responsibilities: [
-    "Supported project planning and phased execution activities.",
-    "Supervised mechanical and electrical conveyor modification work.",
-    "Coordinated conveyor relocation, reconfiguration, and recommissioning activities.",
-    "Supported VFD integration, speed control setup, and electrical protection installation.",
-    "Performed site troubleshooting during modification and commissioning stages.",
-    "Coordinated between operations, project teams, and execution personnel.",
-    "Supported progress reporting, testing, handover, and operational verification."
-  ],
+engineering:
+  "The work was treated as a controlled live-site modification rather than a simple dismantling activity. Existing equipment was assessed for reuse, cables and control connections were traced before removal, and modified conveyor sections were adapted to the available layout. Electrical changes, motor-control requirements, conveyor interfaces and operational testing were addressed progressively as each phase was completed.",
 
-  results: [
-    "Completed multiple conveyor modification phases without interrupting live cargo operations.",
-    "Delivered revised conveyor routes and functional special screening paths using available assets.",
-    "Reduced project cost through reuse and reconfiguration of existing conveyor equipment.",
-    "Improved operational flexibility while preparing the facility for future automation upgrades.",
-    "Maintained safe and controlled execution under live airport cargo handling conditions."
-  ],
+execution: [
+  "Identified conveyor sections to be removed, modified or retained for continued operation.",
+  "Supported safe dismantling of conveyor sections and preservation of reusable mechanical and electrical components.",
+  "Traced and removed associated motor, power and control wiring while maintaining clear identification for the remaining system.",
+  "Supported control-signal isolation and looping required to prevent false alarms following removal of conveyor sections.",
+  "Reconfigured conveyor sections and mechanical interfaces to suit revised cargo-routing requirements.",
+  "Supported installation and integration of additional motor protection, VFD and speed-control arrangements for modified conveyors.",
+  "Performed mechanical checks, wiring verification, belt-splicing support and functional testing of modified conveyor sections.",
+  "Coordinated execution around live cargo operations to minimize operational disruption."
+],
 
-  achievement:
-    "This project demonstrated successful execution of conveyor modernization within a live airport cargo environment through phased implementation, practical field adaptation, and effective coordination between operations and project activities. By maximizing reuse of existing assets and integrating mechanical and electrical modifications without extended shutdowns, the project achieved both operational continuity and long-term infrastructure readiness.",
+responsibilities: [
+  "Supported planning and phased execution of conveyor modification activities.",
+  "Supervised and participated in mechanical and electrical modification work.",
+  "Coordinated dismantling, relocation, reconfiguration and testing activities.",
+  "Supported VFD, speed-control and electrical-protection integration.",
+  "Performed field troubleshooting during modification and operational testing.",
+  "Coordinated with operations, technicians and project stakeholders during execution.",
+  "Supported testing, documentation and handover of completed modifications."
+],
 
-  technologies: [
-    "Airport cargo conveyor systems",
-    "Variable Frequency Drives",
-    "Motor protection devices",
-    "Electrical control components",
-    "Speed control switches",
-    "Conveyor belt splicing",
-    "Mechanical conveyor reconfiguration",
-    "Testing and commissioning"
-  ],
+results: [
+  "Completed phased conveyor modifications while maintaining ongoing cargo operations.",
+  "Created revised conveyor routes using recovered and reconfigured existing equipment.",
+  "Preserved serviceable conveyor assets and components for reuse rather than unnecessary replacement.",
+  "Prevented false system indications associated with removed conveyor equipment through controlled signal handling.",
+  "Delivered functional modified conveyor sections through mechanical, electrical and operational verification."
+],
 
-  skills: [
-    "Phased project execution",
-    "Live-site coordination",
-    "Mechanical and electrical integration",
-    "Conveyor troubleshooting",
-    "VFD integration",
-    "Cost optimization through asset reuse",
-    "Operational continuity planning",
-    "Commissioning and handover support"
-  ],
+achievement:
+  "The project demonstrated practical live-site execution through controlled dismantling, asset reuse, conveyor reconfiguration and multidisciplinary troubleshooting. The work required understanding both the physical conveyor arrangement and its electrical/control interfaces so that modifications could be completed without creating unnecessary disruption to the remaining operating system.",
+
+technologies: [
+  "Airport cargo conveyor systems",
+  "Conveyor motors and drives",
+  "Variable Frequency Drives (VFDs)",
+  "Motor protection devices",
+  "Electrical control circuits",
+  "PLC field signals and I/O interfaces",
+  "Conveyor belt splicing",
+  "Mechanical conveyor modification"
+],
+
+skills: [
+  "Project execution",
+  "Live-site coordination",
+  "Conveyor systems",
+  "Electromechanical troubleshooting",
+  "Electrical modification",
+  "Asset reuse",
+  "Operational continuity",
+  "Commissioning support"
+],
 
   images: [
-  "Conveyor_Dismantling_2.png",
-  "Dismantled_Conveyors_ReadytoTransfer.png",
+   "Conveyor_Dismantling_2.png",
+  "Carefully_Removed_dismantled_Conveyors_Cables_from_ControlCabinet.png",
+  "Dismantled_Conveyors_Cables_Tracking&Removing_Activity.png",
+  "Removed_MotorCables_from_SoftStarters_&Bypassed_PLCSignals_to_Avoid_FalseAlarms.png",
   "Dismantled_Conveyors_Secured_for_Storage&Reuse.png",
-"Carefully_Removed_dismantled_Conveyors_Cables_from_ControlCabinet.png",
-"Dismantled_Conveyors_Cables_Tracking&Removing_Activity.png",
-"Removed_Connections_&Loop_Dismantled_Conveyor_Sognals.png",
-"Removed_MotorCables_from_SoftStarters_&Bypassed_PLCSignals_to_Avoid_FalseAlarms.png",
-"Dismantled_Conveyor_Motor_Testing.png",
-  "Dismantled_Conveyors_Accessories.png",
   "Conveyor_Mofied_Mechanical_Profile_Check_Setup.png",
   "Modified_Conveyor_Belt_Splicing.png",
-"Laying_Modified_Conveyors_for_Project_phase1.png",
-"Phase1_ScreeningConveyor_laid.png",
-"Modified_Conveyor_Setup_Challenge_Gap_inConveyors.png",
-"Modified_Free_roller_Setup_for_Smooth_Shipment_Transfer.png",
-  "Modified_Conveyor_Setup.png",
+  "Laying_Modified_Conveyors_for_Project_phase1.png",
+  "Modified_Conveyor_Setup_Challenge_Gap_inConveyors.png",
+  "Modified_Free_roller_Setup_for_Smooth_Shipment_Transfer.png",
   "Modified_Conveyor_Wiring_inExisting_ControlCabinet.png",
   "Installed&Integrated_New_VFD&SpeedControlSwitch_for_Modified_Conveyors.png",
-  "Installed_New_MCB_for_Additional_Conveyors_in_Modified_Conveyor_Setup.png",
-  "SpeedControlSwitch_Installation_For_Modified_Conveyors.png",
-"SpeedControl_VFD_Installedin_Existing_ElectricalControl_&Tested.png",
-"False_Alarms_for_Dismantled_Conveyors.png",
-"False_Alarms_for_Dismantled_Conveyors1.png",
-"PLC_Connections_Looped&False_Alarms_Removed.png",
-  "Power&FuseFailure_Troubleshooting.png"
+  "PLC_Connections_Looped&False_Alarms_Removed.png",
+  "Phase1_ScreeningConveyor_laid.png"
 ],
   videos: ["Modified_Conveyor_Testing&Commissioning_Video.mp4"],
 
   adminNotes: [
-    "Add overall conveyor overview photo if available.",
     "Add before/after comparison if client-safe.",
     "Add commissioning or operational walkthrough video if available."
   ]
 },
 
-  {
-  id: 2,
-
-  title: "Automated Parking Systems Installation, Commissioning & Reliability Engineering Project",
-
-  category: [
-    "Automated Parking",
-    "Commissioning",
-    "Reliability",
-    "Controls"
-  ],
-
-  folder: "media/project2/",
-
-  hero: "AutomatedCarParking_With_TurnTable_Troubleshooting.png",
-
-  summary:
-    "Installation, commissioning, maintenance, and reliability support for puzzle parking systems, hydraulic lifts, shuttle mechanisms, and automated vehicle turntables.",
-
-  overview:
-    "This project involved the installation, commissioning, troubleshooting, maintenance, and reliability improvement of multiple automated parking technologies across residential and commercial developments. The scope covered puzzle parking systems, hydraulic vehicle lifts, double car parking lifts, automated turntables, and associated control systems, requiring multidisciplinary engineering support from mechanical assembly through final commissioning and operational handover.",
-
-  challenge:
-    "Every installation presented different site constraints including civil alignment deviations, hydraulic integration, electrical control modifications, commissioning delays, and customer-specific operational requirements. In addition to new installations, several operational systems required troubleshooting and reliability improvements while remaining available for client use.",
-
-  engineering:
-    "A practical engineering approach was adopted by combining installation verification, mechanical alignment, hydraulic pressure optimization, electrical integration, safety validation, and commissioning testing. Fault diagnosis was performed systematically to isolate mechanical, hydraulic, and electrical issues before implementing corrective actions that improved long-term reliability and reduced future maintenance requirements.",
-
-  execution: [
-
-    "Completed installation support for automated puzzle parking systems.",
-
-    "Performed hydraulic vehicle lift installation and cylinder integration.",
-
-    "Installed and commissioned double car parking lift systems.",
-
-    "Completed mechanical alignment and structural correction activities.",
-
-    "Integrated hydraulic power packs and associated piping systems.",
-
-    "Installed and tested automated vehicle turntables.",
-
-    "Performed electrical wiring, control panel integration, and safety interlock verification.",
-
-    "Executed commissioning procedures including functional movement testing and operator validation.",
-
-    "Diagnosed and rectified operational faults affecting parking system reliability.",
-
-    "Supported final testing, client demonstrations, and project handover."
-  ],
-
-  responsibilities: [
-
-    "Participated in complete installation and commissioning activities.",
-
-    "Verified mechanical assembly and equipment alignment.",
-
-    "Performed hydraulic troubleshooting and pressure verification.",
-
-    "Supported electrical control integration and wiring modifications.",
-
-    "Configured operational parameters during commissioning.",
-
-    "Investigated system faults and restored operational reliability.",
-
-    "Coordinated with site teams, subcontractors, and client representatives.",
-
-    "Supported documentation, testing, and final project handover."
-  ],
-
-  results: [
-
-    "Successfully commissioned multiple automated parking installations.",
-
-    "Improved system reliability through practical troubleshooting and corrective engineering.",
-
-    "Reduced downtime by identifying root causes rather than replacing components unnecessarily.",
-
-    "Delivered safe and stable operation through proper hydraulic and electrical validation.",
-
-    "Achieved successful customer acceptance and operational handover."
-  ],
-
-  achievement:
-    "This project demonstrates multidisciplinary engineering capability across mechanical installation, hydraulics, electrical controls, commissioning, and field troubleshooting. By supporting both new system implementation and reliability improvement of existing installations, the project highlights practical engineering execution from construction through operational delivery.",
-
-  technologies: [
-
-    "Puzzle parking systems",
-
-    "Hydraulic vehicle lifts",
-
-    "Double car parking lifts",
-
-    "Automated turntables",
-
-    "Hydraulic cylinders",
-
-    "Hydraulic power packs",
-
-    "Electrical control panels",
-
-    "Safety interlock systems",
-
-    "Commissioning procedures"
-  ],
-
-  skills: [
-
-    "Mechanical installation",
-
-    "Hydraulic troubleshooting",
-
-    "Electrical integration",
-
-    "Commissioning",
-
-    "Reliability engineering",
-
-    "Field diagnostics",
-
-    "Project execution",
-
-    "Client handover",
-
-    "Multidisciplinary coordination"
-  ],
-
-  images: [
-
-    "AutomatedCarParking_Shuttle_Troubleshooting.png",
-
-    "CarPuzzleParking_ControlCabinets_Installation.png",
-
-    "CarPuzzleParking_Lift_Installation1.png",
-
-    "CarPuzzleParking_Lift_Installation4.png",
-
-    "CarPuzzleParking_Lift_MotorTestingControl_Making_Inhouse.png",
-
-    "CarPuzzleParking_Ramp_Installation.png",
-
-    "CarPuzzleParking_Ramp_Installation3.png",
-
-    "CarPuzzleParking_Sliding_Platform_Installation.png",
-"PuzzleCarParking_Operator_Panel_Installation.png",
-
-    "car_parking1.png",
-
-    "car_turntable1.png",
-
-    "car_turntable2.png",
-
-    "car_turntable3.png",
-  
+{
+  id: 11,
+
+  title: "ASRS / Miniload Operations, Troubleshooting & Reliability Support",
+
+category: [
+  "ASRS",
+  "Miniload",
+  "Troubleshooting",
+  "Reliability"
 ],
 
-  videos: [
+folder: "media/project11/",
 
-    "Automated_CarParking_Operational_Video.mp4"
+hero: "Miniload_Crane.png",
+heroFit: "contain",
+heroPosition: "center center",
+contribution: "Maintenance, Troubleshooting & Fault Recovery",
+environment: "Automated Production & Logistics Operations",
+summary:
+  "Operational maintenance, fault recovery and reliability support for automated storage and retrieval systems using miniload cranes, telescopic load-handling mechanisms and conveyor interfaces.",
+
+overview:
+  "This experience involved operational maintenance and troubleshooting of an Automated Storage & Retrieval System (ASRS) used for high-volume material storage and retrieval. The system included miniload cranes, telescopic load-handling mechanisms, conveyors, sensors, encoders, drives and PLC-controlled sequences, requiring rapid fault identification and safe recovery to maintain material flow.",
+
+challenge:
+  "ASRS faults were not always represented consistently across the available interfaces. A crane mobile HMI, main system display and visual monitoring map could present different descriptions for the same event, while the physical cause could involve sensors, positioning, telescope movement, conveyors, mechanical condition or the automated sequence. Troubleshooting therefore required comparing system information with actual equipment behaviour rather than relying on a single fault message.",
+
+engineering:
+  "My troubleshooting approach combined alarm information with physical inspection and sequence understanding. I used the available HMI displays, visual monitoring screens and PLC status/logic where accessible to understand what the system was waiting for, then verified sensors, encoders, mechanisms and conveyor interfaces in the field. Recovery followed the approved operating procedures, with software or specialist-level issues escalated when they were outside maintenance scope.",
+
+execution: [
+  "Monitored ASRS operation and responded to miniload crane and conveyor-interface faults.",
+  "Reviewed alarms across available HMI and monitoring interfaces during fault diagnosis.",
+  "Compared displayed fault information with actual equipment condition and sequence behaviour.",
+  "Checked sensors, encoders, limit switches and positioning feedback during operational faults.",
+  "Inspected telescopic extraction mechanisms and load-handling components.",
+  "Performed mechanical and electrical maintenance on accessible ASRS equipment.",
+  "Used available PLC status and logic as a diagnostic reference where required.",
+  "Recovered stalled equipment using approved fault-recovery procedures.",
+  "Recorded recurring fault conditions and recovery steps for future maintenance reference.",
+  "Supported colleagues and engineers in understanding established recovery procedures for recurring faults."
+],
+
+responsibilities: [
+  "Provided preventive and corrective maintenance support for ASRS operation.",
+  "Investigated miniload crane, telescope and conveyor-interface faults.",
+  "Used HMI alarms, system displays and available PLC information to support diagnosis.",
+  "Performed field verification of sensors, encoders and mechanical components.",
+  "Supported safe recovery of stalled automated sequences.",
+  "Documented recurring faults and practical recovery procedures.",
+  "Shared fault-recovery knowledge with maintenance team members.",
+  "Escalated software or specialist-level issues when outside maintenance scope."
+],
+
+results: [
+  "Supported reliable storage and retrieval operation in a live production environment.",
+  "Improved fault diagnosis by comparing multiple system indications with physical equipment condition.",
+  "Reduced recovery time for recurring faults through documented step-by-step procedures.",
+  "Improved team familiarity with established miniload fault-recovery processes.",
+  "Supported operational continuity through preventive maintenance and structured fault response."
+],
+
+achievement:
+  "A key learning from this system was that automation fault messages do not always tell the complete story. By comparing HMI indications, visual-map information, sequence status and actual field conditions, I developed a practical method for locating faults without treating the software message as the diagnosis itself. I also documented recurring recovery procedures so that established fault-response knowledge could be shared within the maintenance team.",
+
+technologies: [
+  "Automated Storage & Retrieval Systems (ASRS)",
+  "Miniload cranes",
+  "Telescopic load-handling mechanisms",
+  "Conveyor interfaces",
+  "HMI and visual monitoring systems",
+  "PLC-controlled sequences",
+  "Position encoders",
+  "Industrial sensors and limit switches",
+  "Motor and drive systems"
+],
+
+skills: [
+  "ASRS maintenance",
+  "Electromechanical troubleshooting",
+  "Alarm interpretation",
+  "Sequence understanding",
+  "PLC-assisted diagnostics",
+  "Preventive maintenance",
+  "Fault recovery",
+  "Technical documentation",
+  "Knowledge sharing",
+  "Reliability support"
+],
+
+  images: [
+     "Miniload_Crane_Telescope.png",
+  "Conveyor&Miniload_Monitoring_VisualMap_Fault_Display.png",
+  "Miniload_Crane_MobilePanel_Fault_Troubleshooting.png",
+  "Miniload_Crane_Not_PickingLoad_Rectified.png",
+  "Miniload_Crane_Bumper_Collision_Troubleshooting.png",
+  "Miniload_Crane_Accident_EquipmentDamaged_Troubleshooting.png",
+  "Miniload_Crane_Maintenance_Setup1.png"
   ],
 
+  videos: [],
+
   adminNotes: [
+    "Add crane movement video if available.",
+    "Add storage/retrieval demonstration if client-safe."
+  ]
+},
 
-    "Add shuttle operation video if available.",
+{
+  id: 12,
 
-    "Add RFID retrieval demonstration if client-safe.",
+  title: "Electric Monorail System (EMS) Maintenance, Troubleshooting & Fault Recovery",
 
-    "Add completed installation overview photographs if available."
+category: [
+  "EMS",
+  "Monorail",
+  "Troubleshooting",
+  "Reliability"
+],
+
+folder: "media/project12/",
+
+hero: "Electric_Monorail.png",
+contribution: "Maintenance, Troubleshooting & Fault Recovery",
+environment: "Live Automated Production Operations",
+summary:
+  "Preventive maintenance, field troubleshooting and safe fault recovery for an automated Electric Monorail System supporting continuous material movement in a live production environment.",
+
+overview:
+  "This experience involved maintenance and operational support of an automated Electric Monorail System (EMS) used for internal material movement. The system included monorail vehicles, travel drives, hoist mechanisms, current collectors, busbar tracks, sensors, remote/manual controls and system monitoring interfaces. My role focused on preventive maintenance, field-level troubleshooting and safe recovery of equipment faults.",
+
+challenge:
+  "EMS faults could appear as vehicle stoppages, travel or hoist problems, sensor faults, power-collection issues, communication-related alarms or workstation/system indications. Because the vehicles operated on an overhead rail network, troubleshooting also required controlled access and safe recovery methods while minimizing disruption to material flow.",
+
+engineering:
+  "Fault diagnosis started with the available alarm or system indication and was then verified against the physical equipment. Depending on the fault, checks included vehicle condition, travel and hoist mechanisms, current collectors, sensors, limit switches, drives, remote/manual functions and accessible communication/control devices. System-level software or specialist communication issues were escalated when they were outside maintenance scope.",
+
+execution: [
+  "Monitored EMS operation and responded to stopped or faulted monorail vehicles.",
+  "Reviewed SCADA, workstation and equipment indications to guide field troubleshooting.",
+  "Performed troubleshooting of vehicle travel, hoist and movement-related faults.",
+  "Checked sensors, limit switches, current collectors and accessible field/control devices.",
+  "Performed remote and manual operating checks during controlled recovery activities.",
+  "Supported preventive maintenance of monorail vehicles, hoists and drive components.",
+  "Investigated communication-related alarms through available indications and field-level checks.",
+  "Recovered maintenance-level faults and supported restoration of automatic operation.",
+  "Verified travel, hoist and safety functions following corrective maintenance.",
+  "Escalated software, server or specialist communication faults when required.",
+  "Coordinated equipment recovery with operations to minimize disruption."
+],
+
+responsibilities: [
+  "Provided preventive and corrective maintenance support for EMS operation.",
+  "Diagnosed field-level faults affecting vehicle travel, hoists and associated equipment.",
+  "Used SCADA/workstation indications as diagnostic references during troubleshooting.",
+  "Inspected current collectors, sensors, limit switches, drives and mechanical components.",
+  "Supported safe remote/manual recovery of stopped vehicles.",
+  "Performed post-maintenance operational verification.",
+  "Documented recurring faults and maintenance observations.",
+  "Coordinated with operations and specialist support teams where required."
+],
+
+results: [
+  "Supported reliable EMS operation within live production requirements.",
+  "Restored monorail vehicles affected by maintenance-level faults.",
+  "Improved fault response by combining system indications with physical field verification.",
+  "Supported safe recovery of overhead vehicles and hoist systems.",
+  "Contributed to stable material movement through preventive maintenance and structured fault response."
+],
+
+achievement:
+  "This experience strengthened my ability to troubleshoot automated transport equipment by connecting system indications with actual field conditions. SCADA and workstation messages were used to understand the reported condition, while diagnosis was verified through inspection of the vehicle, hoist, power collection, sensors, drives and related field equipment. Specialist software or communication issues were escalated rather than treated as maintenance-level faults.",
+
+technologies: [
+  "Electric Monorail System (EMS)",
+  "Automated monorail vehicles",
+  "Hoist mechanisms",
+  "Travel drive systems",
+  "Current collectors",
+  "Busbar track systems",
+  "SCADA and workstation monitoring",
+  "Remote/manual controls",
+  "Industrial sensors and limit switches"
+],
+
+skills: [
+  "EMS maintenance",
+  "Electromechanical troubleshooting",
+  "Fault recovery",
+  "Alarm interpretation",
+  "Preventive maintenance",
+  "Power collection inspection",
+  "Hoist and travel troubleshooting",
+  "Safe equipment recovery",
+  "Operational coordination",
+  "Reliability support"
+],
+
+  images: [
+     "Electric_Monorail_System1.png",
+  "Electric_Monorail_System_Maintenance_Area.png",
+  "Electric_Monorail_DoubleHoist.png",
+  "Electric_Monorail_Current_Collectors.png",
+  "Electric_Monorail_Busbar_Track_Switch.png",
+  "Electric_Monorail_Workstation.png",
+  "Monorail_SCADA.png",
+  "Monorail_Vehicle_Remote_Control.png",
+  "Monorail_Hoist_FastDoorFault-Troubleshooting.png",
+  "Monorail_Hoist_FastDoor_Panel_Troubleshooting1.png",
+  "Monorail_Hoist_FastDoor_MotorTroubleshooting.png",
+  "Monorail_Hoist_FastDoor_Encoder_Troubleshooting.png",
+  "Monorail_Workstation_ServerConnectionLost_Troubleshooting.png",
+  "Monorail_Workstation_Diagnosed_ServerConnectionLost.png",
+  "Monorail_DACO_Communication_Panel_Troubleshooting.png"
+  ],
+
+  videos: [],
+
+  adminNotes: [
+    "Add EMS vehicle movement video if available."
   ]
 },
 
 {
   id: 3,
 
-  title: "ETV Rail Track Renewal & Asset Recovery Program",
+  title: "ETV Rail Track Renewal & Asset Recovery",
 
-  category: [
-    "ETV",
-    "Reliability",
-    "Asset Recovery",
-    "Mechanical"
-  ],
+category: [
+  "ETV",
+  "Reliability",
+  "Asset Recovery",
+  "Mechanical"
+],
 
-  folder: "media/project3/",
+folder: "media/project3/",
 
-  hero: "ETV_Travel_Rail_Replacement_After_Completion.png",
+hero: "ETV_Travel_Rail_Replacement_After_Completion.png",
+heroFit: "contain",
+heroPosition: "center center",
+contribution: "Reliability Improvement & Asset Recovery",
+environment: "Airport Cargo Material Handling Operations",
+summary:
+  "Phased renewal of worn ETV travel rails using recovered serviceable sections, improving travel stability while reducing unnecessary replacement cost.",
 
-  summary:
-    "Phased ETV rail renewal using recovered serviceable rail sections to improve reliability, restore smooth vehicle travel, and reduce replacement cost.",
+overview:
+  "Recurring ETV travel problems were associated with worn and damaged rail sections after extended operation. Rather than treating the complete rail system as unusable, serviceable sections available onsite were assessed for recovery, repaired where practical and reused to restore reliable vehicle travel.",
 
-  overview:
-    "Repeated ETV travel issues were traced to worn and damaged rail sections developed over years of continuous operation. Instead of proceeding with a full new rail procurement, a practical recovery-based engineering approach was adopted to inspect, refurbish, and reuse serviceable rail sections while restoring reliable ETV movement.",
+challenge:
+  "The work had to improve ETV travel without creating unnecessary downtime or replacing complete rail assemblies. Rail wear, alignment, fixing condition and installation accuracy directly affected vehicle movement and drive loading, requiring controlled mechanical execution and verification after each replacement phase.",
 
-  challenge:
-    "The main challenge was to restore accurate and smooth ETV travel while minimizing downtime, controlling cost, and avoiding unnecessary replacement of complete rail assemblies. Rail condition, alignment accuracy, mechanical wear, installation quality, and operating continuity all had to be managed carefully during phased execution.",
+engineering:
+  "The activity followed an inspection-based reliability approach. Damaged areas were identified, available rail sections were assessed for reuse, and selected components were prepared in the workshop before installation. Replacement was completed progressively, followed by alignment, fixing and operational checks to confirm the effect on ETV movement.",
 
-  engineering:
-    "The work was approached through inspection-based reliability improvement. Damaged rail areas were identified, serviceable rail sections were recovered from available assets, and the selected rail sections were prepared for reuse through workshop-level repair and inspection. Installation was then carried out in phases with alignment checks to ensure safe and stable ETV travel.",
+execution: [
+  "Inspected ETV travel rails and identified worn or damaged sections contributing to unstable movement.",
+  "Supported removal of affected rail sections and selection of serviceable replacement sections from available assets.",
+  "Coordinated workshop preparation and repair of recovered rail components before reuse.",
+  "Supervised phased rail replacement activities to minimize impact on system availability.",
+  "Verified rail alignment, level, fixing condition and continuity after installation.",
+  "Supported ETV travel testing and monitored movement after each completed section.",
+  "Compared operating behaviour before and after the rail-renewal activity."
+],
 
-  execution: [
-    "Inspected affected ETV travel rail sections and identified localized damage areas.",
-    "Removed damaged rail sections from the operating area.",
-    "Recovered reusable rail sections from available serviceable assets.",
-    "Prepared and repaired selected rail sections in the workshop before installation.",
-    "Installed replacement rail sections in a phased manner to minimize operational disruption.",
-    "Verified rail alignment, level, fixing condition, and continuity after installation.",
-    "Supported ETV travel testing after rail replacement.",
-    "Confirmed improved travel stability after completion of the replacement activity."
-  ],
+responsibilities: [
+  "Participated in diagnosis of recurring ETV travel problems.",
+  "Supported inspection and selection of recoverable rail sections.",
+  "Coordinated removal, preparation and replacement activities.",
+  "Supervised workshop repair of recovered rail components.",
+  "Supported installation and mechanical alignment verification.",
+  "Participated in post-maintenance operational testing.",
+  "Documented findings, corrective actions and completion status."
+],
 
-  responsibilities: [
-    "Participated in diagnosis of recurring ETV travel issues.",
-    "Supported inspection and selection of recoverable rail sections.",
-    "Coordinated removal of damaged track sections.",
-    "Supervised workshop preparation and repair of recovered rail components.",
-    "Supported installation and alignment verification of replacement rails.",
-    "Assisted in operational testing after rail renewal.",
-    "Documented maintenance findings, corrective actions, and completion status."
-  ],
+results: [
+  "Restored smoother and more stable ETV travel.",
+  "Reduced measured travel/start current from approximately 38 A to 21 A after rail renewal.",
+  "Reduced mechanical resistance and drive loading associated with deteriorated rail condition.",
+  "Avoided unnecessary full rail replacement by recovering serviceable components.",
+  "Reduced replacement cost while extending the useful life of available assets.",
+  "Completed the work progressively to maintain system availability."
+],
 
-  results: [
-    "Restored smoother and more reliable ETV travel movement.",
-    "Reduced replacement cost by reusing serviceable recovered rail sections.",
-    "Avoided unnecessary full rail procurement.",
-    "Improved asset availability through phased maintenance execution.",
-    "Extended service life of usable components through practical refurbishment."
-  ],
+achievement:
+  "The rail-renewal activity demonstrated practical reliability improvement through condition assessment, asset recovery and measured verification. Following replacement and alignment of deteriorated rail sections, ETV travel current reduced from approximately 38 A to 21 A — about a 45% reduction — while movement became smoother and more stable.",
 
-  achievement:
-    "This project demonstrated practical reliability engineering through asset recovery, phased execution, and cost-conscious maintenance planning. By identifying reusable rail sections and restoring them for operational use, the project improved ETV travel reliability while reducing replacement cost and avoiding extended downtime.",
+technologies: [
+  "Electric Transfer Vehicle (ETV)",
+  "ETV travel rail system",
+  "Mechanical alignment",
+  "Rail replacement",
+  "Asset recovery",
+  "Workshop repair",
+  "Industrial material handling systems"
+],
 
-  technologies: [
-    "Electric Transfer Vehicle",
-    "ETV travel rail system",
-    "Mechanical alignment",
-    "Rail replacement",
-    "Asset recovery",
-    "Workshop repair",
-    "Industrial material handling system"
-  ],
-
-  skills: [
-    "Mechanical troubleshooting",
-    "Reliability improvement",
-    "Asset recovery planning",
-    "Rail alignment verification",
-    "Maintenance execution",
-    "Cost optimization",
-    "Operational testing",
-    "Site coordination"
-  ],
+skills: [
+  "Reliability improvement",
+  "Mechanical troubleshooting",
+  "Asset recovery",
+  "Maintenance execution",
+  "Alignment verification",
+  "Operational testing",
+  "Cost optimization",
+  "Site coordination"
+],
 
   images: [
-    "Damaged_ETV_Travel_RailTrack_Removed.png",
-    "ETV_Travel_Rail_Repair_InhouseWorkshop.png",
-    "ETV_Travel_Rail_Replacement1.png"
+     "Damaged_ETV_Travel_RailTrack_Removed.png",
+  "ETV_Travel_Rail_Repair_InhouseWorkshop.png",
+  "ETV_Travel_Rail_Replacement1.png"
   ],
 
   videos: [],
@@ -378,90 +427,94 @@ const projects = [
   {
   id: 4,
 
-  title: "ETV Hydraulic Load Holding System Restoration",
+  title: "ETV Hydraulic Load-Holding Fault Diagnosis & Restoration",
 
-  category: [
-    "ETV",
-    "Hydraulic",
-    "Troubleshooting",
-    "Reliability"
-  ],
+category: [
+  "ETV",
+  "Hydraulic",
+  "Troubleshooting",
+  "Reliability"
+],
 
-  folder: "media/project4/",
+folder: "media/project4/",
+contribution: "Hydraulic Fault Diagnosis & Restoration",
+environment: "Live Airport Cargo Operations",
+hero: "PilotValve_Assembly.png",
+heroFit: "contain",
+heroPosition: "center center",
 
-  hero: "PilotValve_Assembly.png",
+summary:
+  "Structured diagnosis of an ETV hydraulic load-holding fault by separating electrical and hydraulic causes, identifying internal manifold leakage and restoring holding performance.",
 
-  summary:
-    "Diagnosis and repair of ETV hydraulic load-holding failure through counterbalance manifold inspection, leakage identification, and restoration.",
+overview:
+  "An Electric Transfer Vehicle developed a hydraulic fault in which the lifting system could build pressure but could not maintain it reliably. Because the same symptom could result from control, solenoid, cylinder or hydraulic-valve problems, the fault required systematic diagnosis before deciding which component to repair or replace.",
 
-  overview:
-    "An Electric Transfer Vehicle developed a hydraulic load-holding issue where the lifting system was unable to maintain position reliably. The failure required detailed troubleshooting because the fault could have originated from electrical control, solenoid operation, hydraulic pressure loss, cylinder leakage, or internal leakage within the counterbalance manifold.",
+challenge:
+  "The objective was to identify the pressure-loss path without replacing major hydraulic components by assumption. The lifting system handled a heavy operating load, making controlled testing and safe load-holding verification essential throughout the troubleshooting process.",
 
-  challenge:
-    "The main challenge was to identify the exact cause of pressure loss without replacing major hydraulic components unnecessarily. The system had to be diagnosed safely because load-holding failure can create operational and safety risks, especially when the equipment is supporting heavy cargo handling operations.",
+engineering:
+  "I approached the fault by separating the possible causes. Electrical control signals, solenoid operation and related wiring were checked first. Hydraulic pressure was then observed during lifting and holding conditions and compared with normal ETV behaviour. The affected system showed approximately 950 psi before pressure dropped toward zero during holding, while a healthy comparison system maintained around 1500 psi. With main pump pressure available above 2000 psi, the investigation was narrowed toward the load-holding circuit and pilot-operated counterbalance manifold.",
 
-  engineering:
-    "The troubleshooting was carried out by separating electrical control checks from hydraulic performance checks. Electrical signals, solenoid operation, and control wiring were verified first. After confirming the electrical side, pressure behavior and hydraulic holding performance were checked. The fault was traced toward internal leakage in the pilot-operated counterbalance manifold, which required inspection, repair, and controlled restoration.",
+execution: [
+  "Verified electrical control signals, solenoid operation and associated wiring before proceeding with hydraulic diagnosis.",
+  "Measured hydraulic pressure during lifting and load-holding conditions.",
+  "Compared pressure behaviour with a healthy ETV to establish a practical reference.",
+  "Narrowed the pressure-loss path toward the pilot-operated counterbalance manifold.",
+  "Removed and inspected the manifold assembly to investigate possible internal leakage.",
+  "Identified a damaged internal sealing element/O-ring during manifold inspection.",
+  "Supported repair and reassembly of the manifold using the corrected sealing arrangement.",
+  "Reinstalled the repaired assembly and verified hydraulic holding behaviour.",
+  "Confirmed improved load-holding performance following restoration."
+],
 
-  execution: [
-    "Verified electrical control signals and solenoid operation related to the hydraulic holding circuit.",
-    "Checked hydraulic pressure behavior during lift and holding conditions.",
-    "Compared pressure performance against normal operating behavior.",
-    "Identified suspected internal leakage within the pilot-operated counterbalance manifold.",
-    "Removed and inspected the hydraulic counterbalance manifold assembly.",
-    "Supported repair and restoration of the manifold to recover load-holding performance.",
-    "Reinstalled the repaired hydraulic assembly and verified holding behavior.",
-    "Confirmed safer and more reliable hydraulic operation after restoration."
-  ],
+responsibilities: [
+  "Performed structured fault diagnosis across electrical, control and hydraulic possibilities.",
+  "Conducted and supported hydraulic pressure measurements and comparison checks.",
+  "Used healthy-system behaviour as a reference to narrow the fault location.",
+  "Participated in dismantling and inspection of the counterbalance manifold.",
+  "Supported component-level manifold repair and reassembly.",
+  "Supported reinstallation and operational verification after repair.",
+  "Documented the fault findings and corrective action."
+],
 
-  responsibilities: [
-    "Performed initial fault diagnosis on the ETV hydraulic load-holding issue.",
-    "Verified electrical and control-side functionality before focusing on hydraulic causes.",
-    "Supported hydraulic pressure testing and comparison checks.",
-    "Identified the counterbalance manifold as the suspected leakage source.",
-    "Coordinated repair activity for the hydraulic manifold.",
-    "Supported reinstallation, testing, and operational verification.",
-    "Ensured the repair approach focused on safe restoration rather than unnecessary component replacement."
-  ],
+results: [
+  "Identified internal leakage within the load-holding manifold rather than replacing major hydraulic components by assumption.",
+  "Located and corrected the damaged internal sealing element contributing to pressure loss.",
+  "Restored reliable hydraulic load-holding behaviour.",
+  "Avoided unnecessary replacement of the complete hydraulic cylinder or other major components.",
+  "Established a repeatable troubleshooting approach for similar hydraulic holding faults."
+],
 
-  results: [
-    "Identified the probable root cause of hydraulic load-holding failure.",
-    "Avoided unnecessary replacement of major hydraulic components.",
-    "Restored safer hydraulic holding performance after manifold repair.",
-    "Improved equipment reliability and reduced repeat failure risk.",
-    "Provided a practical troubleshooting method for similar hydraulic holding faults."
-  ],
+achievement:
+  "This case demonstrated my troubleshooting approach of moving from the known to the unknown. Electrical and control conditions were verified first, pressure behaviour was compared against a healthy system, and the hydraulic circuit was progressively narrowed until internal manifold leakage was confirmed through physical inspection. The fault was then corrected at component level rather than replacing major assemblies unnecessarily.",
 
-  achievement:
-    "This project demonstrated structured hydraulic troubleshooting by separating electrical, control, and hydraulic causes before identifying the internal leakage path. The restoration of the pilot-operated counterbalance manifold improved load-holding reliability while avoiding unnecessary replacement of expensive hydraulic components.",
+technologies: [
+  "Electric Transfer Vehicle (ETV)",
+  "Hydraulic lifting system",
+  "Pilot-operated counterbalance manifold",
+  "Hydraulic pressure measurement",
+  "Solenoid valve circuits",
+  "Load-holding valves",
+  "Hydraulic seals and O-rings"
+],
 
-  technologies: [
-    "Electric Transfer Vehicle",
-    "Hydraulic lifting system",
-    "Pilot-operated counterbalance manifold",
-    "Hydraulic pressure testing",
-    "Solenoid valve circuit",
-    "Load-holding valve function",
-    "Industrial hydraulic troubleshooting"
-  ],
-
-  skills: [
-    "Hydraulic fault diagnosis",
-    "Electrical control verification",
-    "Pressure testing",
-    "Root cause analysis",
-    "Load-holding troubleshooting",
-    "Reliability restoration",
-    "Safe maintenance execution",
-    "Component-level repair coordination"
-  ],
+skills: [
+  "Hydraulic troubleshooting",
+  "Root cause analysis",
+  "Electrical control verification",
+  "Pressure testing",
+  "Comparative fault diagnosis",
+  "Component-level troubleshooting",
+  "Reliability restoration",
+  "Safe maintenance execution"
+],
 
   images: [
-    "Repaired_Hydraulic_Pilot-Operated_CounterBalance_Manifold_for_ETV.png",
-"Diagnosed_Leaked_Hydraulic_Pilot-Operated_CounterBalance_Manifold_for_ETV.png",
-    "PilotValve_Repair_Activity_Removed_Spring_Piston_toFind_LeakSource.png",
-    "PilotValve_Damaged_Oring_Removed_Replaced&Repaired.png",
-    "Setup_Hydraulic_Pilot-Operated_CounterBalance_Manifold_for_ETV.png"
+    "Diagnosed_Leaked_Hydraulic_Pilot-Operated_CounterBalance_Manifold_for_ETV.png",
+  "PilotValve_Repair_Activity_Removed_Spring_Piston_toFind_LeakSource.png",
+  "PilotValve_Damaged_Oring_Removed_Replaced&Repaired.png",
+  "Repaired_Hydraulic_Pilot-Operated_CounterBalance_Manifold_for_ETV.png",
+  "Setup_Hydraulic_Pilot-Operated_CounterBalance_Manifold_for_ETV.png"
   ],
 
   videos: [],
@@ -472,93 +525,419 @@ const projects = [
     "Add load-holding test demonstration if available."
   ]
 },
+  
+{
+  id: 2,
+
+  title: "Automated Parking Systems Installation, Troubleshooting & Commissioning Support",
+
+category: [
+  "Automated Parking",
+  "Project Execution",
+  "Hydraulic",
+  "Reliability"
+],
+
+folder: "media/project2/",
+
+hero: "AutomatedCarParking_With_TurnTable_Troubleshooting.png",
+contribution: "Installation, Troubleshooting & Commissioning Support",
+environment: "Residential & Commercial Project Sites",
+summary:
+  "Installation, troubleshooting, commissioning support and reliability improvement across automated parking systems, hydraulic lifts and vehicle turntables.",
+
+overview:
+  "This experience covered multiple residential and commercial automated parking installations involving puzzle parking systems, hydraulic vehicle lifts, double car parking lifts, turntables and associated electromechanical equipment. My involvement included installation support, hydraulic and electrical troubleshooting, functional testing, commissioning support and maintenance of operational systems.",
+
+challenge:
+  "Each site presented different practical constraints including civil deviations, alignment issues, hydraulic faults, electrical-control problems and customer-specific operating requirements. Some systems were new installations, while others required troubleshooting and reliability improvement after entering service.",
+
+engineering:
+  "My approach was to verify the mechanical condition first, then check hydraulic, electrical and safety requirements before testing movement. Alignment, hydraulic pressure, cylinder operation, sensors, limit switches, control circuits and safety interlocks were checked systematically so that faults could be isolated without unnecessary component replacement.",
+
+execution: [
+  "Supported mechanical installation and assembly of puzzle parking and vehicle-lift systems.",
+  "Assisted with installation and integration of hydraulic cylinders, power packs, hoses and associated components.",
+  "Supported installation and functional testing of automated vehicle turntables.",
+  "Performed mechanical alignment, clearance and movement checks during installation and troubleshooting.",
+  "Supported electrical wiring, control-panel connections and safety-interlock verification.",
+  "Performed hydraulic troubleshooting, pressure checks and fault isolation on operational systems.",
+  "Supported no-load and load testing during commissioning and operational verification.",
+  "Diagnosed electromechanical faults affecting parking-system availability and supported corrective actions.",
+  "Coordinated with technicians, subcontractors, clients and project teams during installation and handover activities."
+],
+
+responsibilities: [
+  "Participated in installation and commissioning-support activities.",
+  "Verified mechanical assembly, alignment and equipment clearances.",
+  "Performed hydraulic troubleshooting and operational checks.",
+  "Supported electrical integration, field wiring and control verification.",
+  "Checked sensors, limit switches and safety interlocks during functional testing.",
+  "Investigated operational faults and supported restoration of equipment.",
+  "Coordinated with site teams and client representatives during execution.",
+  "Supported testing, documentation, demonstration and handover."
+],
+
+results: [
+  "Supported successful delivery and operational readiness of multiple automated parking installations.",
+  "Resolved mechanical, hydraulic and electrical faults affecting system operation.",
+  "Improved equipment reliability through systematic troubleshooting and corrective maintenance.",
+  "Supported safe operation through mechanical, hydraulic, electrical and safety verification.",
+  "Contributed to customer acceptance and operational handover."
+],
+
+achievement:
+  "This experience strengthened my multidisciplinary field-engineering capability by combining mechanical installation, hydraulic troubleshooting, electrical verification, safety checks and commissioning support across different automated parking configurations. It also developed my ability to adapt troubleshooting methods to site-specific mechanical and operational conditions.",
+
+technologies: [
+  "Puzzle parking systems",
+  "Hydraulic vehicle lifts",
+  "Double car parking lifts",
+  "Automated vehicle turntables",
+  "Hydraulic cylinders",
+  "Hydraulic power packs",
+  "Electrical control panels",
+  "Sensors and limit switches",
+  "Safety interlock systems"
+],
+
+skills: [
+  "Mechanical installation",
+  "Hydraulic troubleshooting",
+  "Electromechanical troubleshooting",
+  "Electrical field verification",
+  "Safety verification",
+  "Commissioning support",
+  "Project execution",
+  "Client coordination",
+  "Reliability improvement"
+],
+
+  images: [
+"car_parking1.png",
+  "CarPuzzleParking_Lift_Installation1.png",
+  "CarPuzzleParking_Lift_Installation4.png",
+  "CarPuzzleParking_Sliding_Platform_Installation.png",
+  "CarPuzzleParking_Ramp_Installation.png",
+  "CarPuzzleParking_ControlCabinets_Installation.png",
+  "PuzzleCarParking_Operator_Panel_Installation.png",
+  "CarPuzzleParking_Lift_MotorTestingControl_Making_Inhouse.png",
+  "AutomatedCarParking_Shuttle_Troubleshooting.png",
+  "car_turntable1.png",
+  "car_turntable2.png",
+  "car_turntable3.png"  
+],
+
+  videos: [
+    "Automated_CarParking_Operational_Video.mp4"
+  ],
+
+  adminNotes: [
+    "Add shuttle operation video if available.",
+    "Add RFID retrieval demonstration if client-safe."
+  ]
+},
+
+{
+  id: 10,
+
+  title: "AGV Fleet Maintenance, Fault Recovery & Operational Support",
+
+category: [
+  "AGV",
+  "Maintenance",
+  "Troubleshooting",
+  "Reliability"
+],
+
+folder: "media/project10/",
+contribution: "Maintenance & Fault Recovery",
+environment: "Live Automated Logistics Operations",
+hero: "AGV_System_Workstation_Operation.png",
+heroFit: "contain",
+heroPosition: "center center",
+
+summary:
+  "Operational maintenance and fault-recovery support for an Automated Guided Vehicle fleet, covering alarms, batteries, safety devices, movement faults and vehicle recovery within a live logistics environment.",
+
+overview:
+  "This experience involved maintenance and operational support for an Automated Guided Vehicle fleet used for internal material movement. My role focused on keeping vehicles available for operation through preventive maintenance, alarm-based troubleshooting, physical inspection and recovery of faulted or stopped AGVs.",
+
+challenge:
+  "A stopped AGV could interrupt material movement and also affect other vehicles sharing the operating area. Fault indications could relate to route or positioning conditions, batteries, safety scanners, sensors, drive components, obstructions or communication status. The challenge was to interpret the available information, inspect the affected vehicle and operating area, and identify what could be safely corrected at maintenance level.",
+
+engineering:
+  "Fault recovery started with the alarm or operating condition shown by the system. I checked the affected AGV, its physical position, route condition, battery status, safety devices, sensors and drive/movement condition as applicable. Where the problem was within maintenance scope, corrective action and recovery were performed. Issues requiring software, configuration or specialist intervention were escalated to the appropriate engineering or OEM support team.",
+
+execution: [
+  "Monitored AGV operation and responded to vehicles stopped or faulted during material movement.",
+  "Reviewed available alarms and operating indications to guide field troubleshooting.",
+  "Checked vehicle position, route condition and physical obstructions during movement-related faults.",
+  "Inspected safety scanners, sensors and obstruction-detection devices during fault recovery.",
+  "Supported battery-condition checks, charging activities and battery replacement.",
+  "Performed physical checks on drive and movement-related components where applicable.",
+  "Recovered AGVs from maintenance-level faults and supported their return to automatic operation.",
+  "Escalated software, configuration or specialist-level faults when they were outside maintenance scope.",
+  "Performed preventive maintenance and coordinated vehicle recovery with operations."
+],
+
+responsibilities: [
+  "Provided preventive and corrective maintenance support for AGV fleet operation.",
+  "Used alarms and system indications to support fault diagnosis.",
+  "Inspected batteries, safety devices, sensors and movement-related components.",
+  "Checked route and operating-area conditions during AGV stoppages.",
+  "Supported recovery and return of faulted vehicles to operation.",
+  "Distinguished maintenance-level faults from issues requiring specialist support.",
+  "Coordinated with operations to minimize disruption during vehicle recovery."
+],
+
+results: [
+  "Supported reliable AGV availability within live logistics operations.",
+  "Restored vehicles affected by maintenance-level and operating-condition faults.",
+  "Reduced unnecessary troubleshooting by using alarm information together with physical inspection.",
+  "Supported safe AGV movement through routine inspection of batteries, sensors and safety devices.",
+  "Improved fault-response consistency through practical recovery experience."
+],
+
+achievement:
+  "This experience developed my ability to troubleshoot automated mobile equipment without confusing system operation with software ownership. AGV alarms and interface information were used as diagnostic inputs, then verified against the physical vehicle, route, battery, safety devices and movement condition. Maintenance-level faults were corrected directly, while software or specialist-level issues were escalated when required.",
+
+technologies: [
+  "Automated Guided Vehicles (AGVs)",
+  "AGV operator interfaces",
+  "Battery and charging systems",
+  "Safety scanners",
+  "Proximity and position sensors",
+  "Drive and movement components",
+  "Automated material transport systems"
+],
+
+skills: [
+  "AGV maintenance",
+  "Fault recovery",
+  "Electromechanical troubleshooting",
+  "Alarm interpretation",
+  "Preventive maintenance",
+  "Battery maintenance",
+  "Safety-device inspection",
+  "Operational coordination",
+  "Technical escalation"
+],
+
+  images: [
+  "AGV-Automated_Guided_Vehicle.png",
+  "AGV_FROG_Location_Overview.png",
+  "AGV_Status_Diagnostics.png",
+  "AGV_Fault_Troubleshooting.png",
+  "AGV_DeadLock_No_Movement_Troubleshooting.png",
+  "AGV_Troubleshooting1.png",
+  "AGV_Battery_Replacement_Activity.png"
+],
+
+  videos: [],
+
+  adminNotes: [
+    "Add AGV navigation video if available.",
+    "Add battery replacement or charging system photo if available.",
+    "Add AGV control screen photo only if client-safe."
+  ]
+},
+
+{
+  id: 8,
+
+  title: "Automated Vehicle Lift Installation & Commissioning Support",
+
+category: [
+  "Vehicle Lift",
+  "Hydraulic",
+  "Project Execution",
+  "Installation"
+],
+
+folder: "media/project8/",
+
+hero: "CarLift_During_Comissioning.png",
+contribution: "Installation & Commissioning Support",
+environment: "Residential Project Site",
+summary:
+  "Completion of a partially installed automated vehicle lift through mechanical assembly, hydraulic and electrical integration, civil-interface correction, safety verification and commissioning support.",
+
+overview:
+  "This project involved completing an automated vehicle lift installation at a private residential site in Dubai. When I joined the project, the civil pit and major cylinder/support structure were already in place. My involvement focused on completing the remaining mechanical, hydraulic and electrical works, resolving site-interface issues, and supporting testing and handover readiness.",
+
+challenge:
+  "The installation had to be completed around civil work that was already finished. During platform assembly and movement checks, insufficient clearance was identified at the entry side because the pit walls were not sufficiently straight, causing the platform to rub during travel. The issue required coordination with the client and civil team before safe and unrestricted movement could be achieved.",
+
+engineering:
+  "The remaining installation was approached by checking actual site dimensions against the lift requirements and progressively completing the mechanical, hydraulic, electrical and safety interfaces. Platform clearances and alignment were verified during movement, hydraulic connections were completed and checked, and electrical and safety functions were tested before operational trials. Site drawings were also reviewed for drainage and other pit-related requirements that needed to be completed around the lift installation.",
+
+execution: [
+  "Reviewed the condition and remaining scope of the partially completed vehicle lift installation.",
+  "Participated in mechanical assembly of the lift platform and associated components.",
+  "Checked platform alignment, pit clearances and movement during installation.",
+  "Identified platform rubbing caused by insufficient clearance at the entry-side pit wall.",
+  "Raised the civil-interface issue with the client and coordinated the required wall correction/chipping work.",
+  "Completed and verified hydraulic connections involving the lifting cylinders, hoses and power-pack interfaces.",
+  "Performed electrical wiring and connection work required for the remaining installation.",
+  "Installed and tested safety interlocks and associated operating/safety devices.",
+  "Reviewed final drawings and coordinated drainage-channel requirements around the lift pit.",
+  "Supported no-load and load movement testing as the system progressed toward handover."
+],
+
+responsibilities: [
+  "Supported completion of the partially installed vehicle lift system.",
+  "Participated directly in mechanical platform assembly and remaining installation work.",
+  "Performed hydraulic connection and electrical wiring activities within the assigned scope.",
+  "Checked platform alignment, movement and civil clearances.",
+  "Identified site deviations affecting safe lift travel and coordinated corrective action.",
+  "Installed and verified safety interlocks.",
+  "Supported functional testing and commissioning activities.",
+  "Coordinated with the client and other site parties during completion of the installation."
+],
+
+results: [
+  "Completed the remaining mechanical, hydraulic and electrical installation activities within my assigned scope.",
+  "Identified and corrected a civil-clearance issue before continued lift operation.",
+  "Achieved unrestricted platform movement after the required pit-wall correction.",
+  "Verified safety interlocks and operational functions during testing.",
+  "Progressed the vehicle lift to operational condition and handover stage."
+],
+
+achievement:
+  "This project demonstrated practical multidisciplinary site execution on an installation that was already partially completed. A key contribution was identifying that platform rubbing was caused by the existing civil pit geometry rather than attempting to compensate through the lift mechanism. Coordinating the civil correction, completing the remaining hydraulic and electrical interfaces, and verifying safety functions allowed the system to progress toward safe operation and handover.",
+
+technologies: [
+  "Automated vehicle lift",
+  "Hydraulic lifting cylinders",
+  "Hydraulic power pack",
+  "Hydraulic hoses and connections",
+  "Lift platform structure",
+  "Electrical control wiring",
+  "Safety interlocks",
+  "Limit and operating devices",
+  "Lift pit and drainage interfaces"
+],
+
+skills: [
+  "Project execution",
+  "Mechanical installation",
+  "Hydraulic installation",
+  "Electrical wiring",
+  "Site measurement",
+  "Alignment and clearance verification",
+  "Civil-interface coordination",
+  "Safety verification",
+  "Commissioning support",
+  "Client coordination"
+],
+
+  images: [
+    "CarLift_Installation_Initial_Stage.png",
+  "CarLift_Platform_Assembly.png",
+  "CarLift_Hydraulic_System_Installation.png",
+  "CarLift_Electrical_Control.png",
+  "CarLift_LegSafety_RopeSwitch_Installation.png",
+  "CarLift_RestingBumper_Installation.png",
+  "CarLift_Platform_Assembly_Installation_Completed.png"
+  ],
+
+  videos: [],
+
+  adminNotes: [
+    "Add platform movement demonstration video if available.",
+    "Add final lift operation video if client-safe.",
+    "Add before/after clearance correction photo if available."
+  ]
+},
 
   {
   id: 5,
 
-  title: "ETV Current Collector Replacement & Power Collection System Restoration",
+  title: "ETV Current Collector Replacement & 480V Power Collection Restoration",
 
-  category: [
-    "ETV",
-    "Electrical",
-    "480V",
-    "Power Collection"
-  ],
+category: [
+  "ETV",
+  "Electrical",
+  "Reliability",
+  "Power Collection"
+],
 
-  folder: "media/project5/",
+folder: "media/project5/",
 
-  hero: "ETV_BusBar_CurrentCollectors_After_Replacement.png",
+hero: "Damaged Current Collectors.png",
+heroFit: "contain",
+heroPosition: "center center",
+contribution: "Electrical Maintenance & Reliability Restoration",
+environment: "Live Airport Cargo Operations",
+summary:
+  "Diagnosis and replacement of damaged ETV current collectors to restore stable 480V overhead busbar power collection and reliable vehicle movement.",
 
-  summary:
-    "Replacement of damaged ETV current collectors to restore safe and reliable 480V overhead busbar power collection.",
+overview:
+  "An Electric Transfer Vehicle developed power-collection reliability issues associated with worn and damaged current collectors operating against an overhead 480V busbar system. Poor collector condition could interrupt power during vehicle travel and contribute to arcing, unstable movement and repeated operational stoppages.",
 
-  overview:
-    "The Electric Transfer Vehicle power collection system developed reliability issues due to damaged current collectors operating on the overhead busbar arrangement. Since the current collectors are responsible for maintaining continuous 480V power transfer during ETV movement, deterioration in this assembly can lead to power interruption, unsafe arcing, movement faults, and repeated operational stoppages.",
+challenge:
+  "The repair required more than simply replacing the damaged collectors. Mechanical positioning, alignment, contact quality and movement clearance all affected electrical continuity during ETV travel, so the replacement had to be completed with both electrical safety and mechanical fitment in mind.",
 
-  challenge:
-    "The main challenge was to restore reliable power collection while working around a live industrial material handling system. The damaged collectors had to be replaced accurately to maintain proper contact pressure, alignment, and safe clearance with the busbar system. Any incorrect installation could lead to poor contact, arcing, repeated wear, or further power interruption during ETV travel.",
+engineering:
+  "The activity began with inspection of the damaged collector assemblies and the corresponding busbar contact area. After safe isolation, the worn collectors were removed and replacement assemblies installed. Mechanical alignment and contact position were checked before electrical continuity and movement testing were carried out to confirm stable power collection.",
 
-  engineering:
-    "The repair was approached by inspecting the damaged collector assembly, confirming the condition of the busbar contact interface, and replacing the collector components with proper mechanical positioning and electrical safety checks. Alignment and contact stability were critical to ensure the ETV could maintain uninterrupted power while moving along its operating path.",
+execution: [
+  "Inspected damaged current collector assemblies and confirmed the replacement requirement.",
+  "Checked the condition of the associated overhead busbar contact area.",
+  "Supported safe electrical isolation before starting maintenance work.",
+  "Removed damaged current collectors from the ETV.",
+  "Installed replacement collector assemblies with the required mechanical positioning.",
+  "Checked collector alignment, contact condition and travel clearance.",
+  "Verified electrical continuity and operating condition after installation.",
+  "Supported ETV movement testing to confirm stable power transfer during travel."
+],
 
-  execution: [
-    "Inspected damaged ETV current collectors and identified replacement requirement.",
-    "Verified the condition of the overhead busbar contact area before replacement.",
-    "Isolated the affected power collection section safely before maintenance.",
-    "Removed damaged current collector assemblies from the ETV.",
-    "Installed replacement current collectors with correct mechanical positioning.",
-    "Checked collector alignment, contact pressure, and movement clearance.",
-    "Verified electrical continuity and safe power collection after installation.",
-    "Supported operational testing to confirm stable ETV movement and power transfer."
-  ],
+responsibilities: [
+  "Diagnosed power-collection issues associated with damaged current collectors.",
+  "Supported safe isolation and replacement activities.",
+  "Performed mechanical fitment and alignment checks on replacement collectors.",
+  "Verified collector contact with the busbar system.",
+  "Checked electrical continuity after replacement.",
+  "Supported operational testing during ETV travel.",
+  "Documented the completed maintenance and restoration activity."
+],
 
-  responsibilities: [
-    "Diagnosed power collection issues related to damaged current collectors.",
-    "Supported safe isolation and replacement activity.",
-    "Performed mechanical fitment checks for new collector assemblies.",
-    "Verified collector contact alignment with the busbar system.",
-    "Checked electrical continuity and safe operating condition after replacement.",
-    "Supported ETV movement testing after restoration.",
-    "Ensured the activity restored reliability without creating further busbar damage."
-  ],
+results: [
+  "Restored stable 480V power collection during ETV travel.",
+  "Reduced the risk of intermittent power loss and movement stoppages.",
+  "Improved collector contact stability through correct positioning and alignment.",
+  "Reduced the likelihood of further damage associated with worn or incorrectly aligned collectors.",
+  "Returned the power-collection system to reliable operating condition."
+],
 
-  results: [
-    "Restored reliable 480V power collection for ETV operation.",
-    "Reduced risk of power interruption during travel movement.",
-    "Improved current collector contact stability and operating safety.",
-    "Prevented further damage caused by worn or misaligned collectors.",
-    "Returned the ETV power collection system to stable operating condition."
-  ],
+achievement:
+  "This activity demonstrated the interaction between electrical continuity and mechanical condition in a moving power-collection system. Restoring reliable operation required not only replacing damaged electrical components, but also verifying collector alignment, contact position and movement clearance before returning the ETV to service.",
 
-  achievement:
-    "This project demonstrated practical electrical maintenance and reliability restoration on a moving industrial power collection system. By replacing damaged current collectors and verifying alignment, contact quality, and electrical continuity, safe and stable ETV operation was restored while reducing the risk of repeat power collection failures.",
+technologies: [
+  "Electric Transfer Vehicle (ETV)",
+  "480V overhead busbar system",
+  "Current collectors",
+  "Power collection assemblies",
+  "Electrical continuity testing",
+  "Mechanical alignment",
+  "Industrial material handling systems"
+],
 
-  technologies: [
-    "Electric Transfer Vehicle",
-    "480V overhead busbar system",
-    "Current collectors",
-    "Power collection assembly",
-    "Electrical continuity testing",
-    "Mechanical alignment",
-    "Industrial material handling equipment"
-  ],
-
-  skills: [
-    "Electrical troubleshooting",
-    "Power collection system maintenance",
-    "Current collector replacement",
-    "480V safety awareness",
-    "Mechanical alignment verification",
-    "Operational testing",
-    "Reliability restoration",
-    "Safe isolation practice"
-  ],
+skills: [
+  "Electrical troubleshooting",
+  "Reliability restoration",
+  "Current collector replacement",
+  "Power collection systems",
+  "Electrical safety",
+  "Mechanical alignment verification",
+  "Operational testing",
+  "Safe isolation"
+],
 
   images: [
-    "New_VFD_Parameterization.png",
-    "NewVFD_Installation_in_ETV.png",
-    "NewVFD_Installation&Testing_in_ETV.png",
-    "Damaged_CurrentCollectors_Replacement_Activity.png"
+    "Damaged_CurrentCollectors_Replacement_Activity.png",
+    "ETV_BusBar_CurrentCollectors_After_Replacement.png"
   ],
 
   videos: [],
@@ -570,200 +949,98 @@ const projects = [
   ]
 },
 
-  {
-  id: 6,
-
-  title: "Roller Deck Hydraulic Cylinder Reliability Improvement Program",
-
-  category: [
-    "Hydraulic",
-    "Roller Deck",
-    "Reliability",
-    "Maintenance"
-  ],
-
-  folder: "media/project6/",
-
-  hero: "RollerDeck_LiftingCylinder_AfterRepair.png",
-
-  summary:
-    "Reliability improvement program for recurring hydraulic cylinder failures in cargo roller deck lifting systems.",
-
-  overview:
-    "Cargo roller decks used hydraulic lifting cylinders to raise and lower transfer rollers during load movement. Repeated cylinder leakage and lifting performance issues were affecting operational reliability, increasing downtime, and creating recurring maintenance workload. The project focused on improving hydraulic reliability through proper diagnosis, cylinder repair, replacement strategy, and maintenance improvement.",
-
-  challenge:
-    "The main challenge was that cylinder failures were recurring rather than isolated. Replacing only one failed cylinder did not always solve the issue because uneven loading, worn seals, internal leakage, and related mechanical resistance could transfer additional stress to the remaining cylinders. A more reliable repair strategy was required to reduce repeated failures and restore stable lifting performance.",
-
-  engineering:
-    "The hydraulic system was assessed by reviewing cylinder condition, leakage points, lifting performance, and load-sharing behavior. Instead of treating every failure as a single-cylinder replacement, the repair approach considered the complete lifting assembly. Damaged cylinders were removed, inspected, repaired or replaced, and tested to restore balanced lifting and reduce repeat leakage issues.",
-
-  execution: [
-    "Inspected roller deck hydraulic lifting cylinders for leakage and weak lifting behavior.",
-    "Identified damaged or leaking cylinders affecting deck lifting performance.",
-    "Removed defective hydraulic cylinders from the roller deck assembly.",
-    "Inspected cylinder rods, seals, fittings, and mounting points.",
-    "Coordinated repair and refurbishment of damaged cylinders where possible.",
-    "Replaced or reinstalled repaired cylinders after verification.",
-    "Checked hydraulic connections, oil leakage points, and lifting response.",
-    "Tested roller deck lifting and lowering operation after repair.",
-    "Monitored performance to confirm improved reliability and reduced leakage."
-  ],
-
-  responsibilities: [
-    "Performed hydraulic troubleshooting on roller deck lifting systems.",
-    "Identified leaking or weak hydraulic cylinders requiring repair.",
-    "Supported cylinder removal, repair coordination, and reinstallation.",
-    "Verified hydraulic connections and mounting condition after installation.",
-    "Checked lifting operation and deck response after cylinder repair.",
-    "Supported reliability improvement by avoiding repeated isolated repairs.",
-    "Documented repair actions and monitored equipment performance after restoration."
-  ],
-
-  results: [
-    "Restored reliable lifting operation of roller deck systems.",
-    "Reduced repeated hydraulic leakage issues.",
-    "Improved cylinder service life through better inspection and repair strategy.",
-    "Reduced downtime caused by recurring hydraulic failures.",
-    "Improved maintainability of the roller deck hydraulic lifting assemblies."
-  ],
-
-  achievement:
-    "This project demonstrated reliability-focused hydraulic maintenance by moving beyond simple component replacement and addressing recurring cylinder failure patterns. Through inspection, repair coordination, reinstallation, and functional testing, roller deck lifting reliability was improved while reducing repeat maintenance interventions.",
-
-  technologies: [
-    "Hydraulic roller deck system",
-    "Hydraulic lifting cylinders",
-    "Cylinder seals",
-    "Hydraulic fittings",
-    "Cargo transfer equipment",
-    "Lifting mechanism",
-    "Industrial maintenance system"
-  ],
-
-  skills: [
-    "Hydraulic troubleshooting",
-    "Cylinder leakage diagnosis",
-    "Reliability improvement",
-    "Mechanical maintenance coordination",
-    "Functional testing",
-    "Maintenance planning",
-    "Root cause thinking",
-    "Operational restoration"
-  ],
-
-  images: [
-    "Modifying_Decks_InterlockConnections_toAvoid_System&Equipment_Damage2.png",
-    "Modifying_Decks_InterlockConnections_toAvoid_System&Equipment_Damage1.png",
-    "RollerDeck_LiftingCylinder_Replacement.png",
-    "RollerDeck_LiftingCylinder_Repair.png",
-    "RollerDeck_LiftingCylinder_Replacement.png",
-    "RollerDeck_LiftingCylinder_Replacement1.png",
-    "ScissorLift_After_Removalof_Damaged_PivotPin.png",
-    "ScissorLift_Damaged_Cylinder_Pin_Replacement.png",
-    "ScissorLift_Damaged_PivotPin_After_Replacement.png",
-    "ScissorLift_LiftingCylinder_PivotPin_Damaged_CriticalCondition.png",
-    "ScissorLift_LiftingCylinder_PivotPin_Replacement.png",
-    "ScissorLift_Workstation_HydraulicOil_Replacement.png"
-  ],
-
-  videos: [],
-
-  adminNotes: [
-    "Add cylinder removal video if available.",
-    "Add hydraulic bleeding procedure video if available.",
-    "Add lifting test video after cylinder repair if available."
-  ]
-},
-
  {
   id: 7,
 
-  title: "Scissor Lift Roller Motor Drive System Reliability Improvement",
+  title: "Roller Deck Motor Drive Troubleshooting & Reliability Improvement",
 
-  category: [
-    "Motor",
-    "Drive System",
-    "Roller Deck",
-    "Reliability"
-  ],
+category: [
+  "Motor",
+  "Roller Deck",
+  "Troubleshooting",
+  "Reliability"
+],
 
-  folder: "media/project7/",
+folder: "media/project7/",
 
-  hero: "ScissorLift_Roller_Motor_Broken.png",
+hero: "ScissorLift_Roller_Motor_Broken.png",
+contribution: "Electromechanical Troubleshooting & Restoration",
+environment: "Cargo Material Handling Operations",
+summary:
+  "Troubleshooting and restoration of roller deck drive systems through motor replacement, mechanical inspection, component repair and recovery of serviceable parts.",
 
-  summary:
-    "Drive system reliability improvement through motor replacement, motor refurbishment, clutch sprocket inspection, and component reuse.",
+overview:
+  "Roller deck systems experienced drive-related faults involving damaged motors and associated mechanical components. Rather than assuming every stoppage was only a motor problem, the complete drive arrangement was inspected to understand the condition of the motor, gearbox mounting, chain drive, sprockets and related transfer components.",
 
-  overview:
-    "Roller deck drive systems experienced repeated drive-related failures including damaged motors, worn drive components, clutch sprocket issues, and reduced transfer reliability. Instead of treating each failure as a simple motor replacement, the project focused on improving the maintainability and reliability of the roller deck drive system through inspection, repair, refurbishment, and reuse of serviceable components.",
+challenge:
+  "A failed motor can be the result of the electrical unit itself or of mechanical conditions elsewhere in the drive system. Replacing the motor without checking mounting, chain condition, sprockets and roller movement could leave the original cause unresolved and expose the replacement unit to the same operating condition.",
 
-  challenge:
-    "The main challenge was to reduce recurring drive failures while keeping the cargo transfer system available for operation. Drive assemblies in roller deck systems are exposed to repeated starting loads, chain tension, mechanical resistance, and occasional transfer obstructions. If the protection and drive components are not maintained correctly, the system can experience repeated motor failures, sprocket damage, chain issues, and operational stoppages.",
+engineering:
+  "The troubleshooting approach therefore considered the motor and mechanical transmission together. Faulty assemblies were removed and inspected, associated drive components were checked for condition and fitment, and serviceable parts were repaired or recovered where practical. After installation, roller movement and drive behaviour were verified before the equipment was returned to operation.",
 
-  engineering:
-    "The drive system was assessed as a complete mechanical and electrical assembly rather than only as a motor fault. Motor condition, gearbox mounting, clutch sprocket function, chain drive condition, and mechanical load transfer were reviewed. Serviceable motor assemblies and components were repaired or reused where possible, while damaged units were replaced and tested under operating conditions.",
+execution: [
+  "Inspected affected roller deck drive systems and identified faulty motor assemblies.",
+  "Supported removal of damaged motors and associated drive components.",
+  "Checked motor and gearbox mounting, chain condition, sprockets and mechanical fitment.",
+  "Replaced damaged motor assemblies where required.",
+  "Supported repair of serviceable motor-related components where practical.",
+  "Recovered usable components from removed assemblies for future maintenance use.",
+  "Installed repaired or replacement drive assemblies.",
+  "Checked roller movement, chain behaviour and drive response after installation.",
+  "Performed functional testing before returning the affected equipment to operation."
+],
 
-  execution: [
-    "Inspected roller deck drive system condition and identified damaged motor assemblies.",
-    "Removed defective or unreliable motor and drive components from affected roller decks.",
-    "Checked motor mounting, gearbox fitment, clutch sprocket condition, and chain drive arrangement.",
-    "Replaced damaged motor assemblies where required.",
-    "Recovered serviceable components from removed drive assemblies for future reuse.",
-    "Supported in-house repair and refurbishment of motor-related parts where practical.",
-    "Installed repaired or replacement drive assemblies on the roller deck system.",
-    "Verified drive operation, roller movement, chain behavior, and system response after repair.",
-    "Tested roller deck operation under normal transfer conditions before returning to service."
-  ],
+responsibilities: [
+  "Performed troubleshooting of roller deck motor-drive faults.",
+  "Supported motor and drive-component removal and replacement.",
+  "Inspected associated mechanical components rather than treating the motor as an isolated fault.",
+  "Supported repair and recovery of serviceable components.",
+  "Verified mechanical fitment following installation.",
+  "Performed functional and operational checks after restoration.",
+  "Documented completed maintenance activities and component condition."
+],
 
-  responsibilities: [
-    "Diagnosed roller deck drive system faults affecting transfer operation.",
-    "Supported removal and replacement of faulty motor and drive assemblies.",
-    "Checked mechanical fitment of motor, gearbox, chain, and sprocket components.",
-    "Supported refurbishment and reuse of serviceable drive components.",
-    "Verified correct operation after replacement or repair.",
-    "Coordinated maintenance work to reduce equipment downtime.",
-    "Supported reliability improvement by identifying repeat failure patterns."
-  ],
+results: [
+  "Restored operation of affected roller deck drive systems.",
+  "Identified and addressed associated mechanical conditions during motor replacement activities.",
+  "Recovered serviceable components for future maintenance use.",
+  "Reduced unnecessary disposal and procurement where components could be repaired or reused.",
+  "Improved maintenance understanding of the complete roller deck drive arrangement."
+],
 
-  results: [
-    "Restored reliable roller deck drive operation.",
-    "Reduced repeat downtime caused by motor and drive assembly failures.",
-    "Improved spare availability through recovery and reuse of serviceable components.",
-    "Reduced unnecessary procurement by refurbishing usable assemblies where possible.",
-    "Improved maintainability of roller deck drive systems."
-  ],
+achievement:
+  "This case reinforced the importance of looking beyond the visibly failed component. A damaged motor was treated as part of a complete drive system, with the gearbox mounting, chain, sprockets and roller movement checked before restoration. This helped ensure that replacement decisions were based on the condition of the complete assembly rather than assumption.",
 
-  achievement:
-    "This project demonstrated reliability improvement through practical drive system diagnosis, repair, and component recovery. By looking beyond the failed motor and considering the complete drive assembly, the maintenance approach improved equipment availability, reduced repeated failures, and supported more cost-effective long-term operation.",
+technologies: [
+  "Roller deck systems",
+  "Electric motors",
+  "Gearbox assemblies",
+  "Clutch sprockets",
+  "Chain drives",
+  "Cargo transfer rollers",
+  "Motor drive assemblies",
+  "Mechanical transmission components"
+],
 
-  technologies: [
-    "Roller deck drive system",
-    "Electric motors",
-    "Gearbox assemblies",
-    "Clutch sprockets",
-    "Chain drive system",
-    "Cargo transfer rollers",
-    "Motor replacement",
-    "Component refurbishment"
-  ],
-
-  skills: [
-    "Drive system troubleshooting",
-    "Motor replacement",
-    "Mechanical inspection",
-    "Component recovery",
-    "Reliability improvement",
-    "Maintenance planning",
-    "Functional testing",
-    "Cost-effective repair strategy"
-  ],
+skills: [
+  "Electromechanical troubleshooting",
+  "Motor replacement",
+  "Mechanical inspection",
+  "Drive system maintenance",
+  "Component recovery",
+  "Reliability improvement",
+  "Functional testing",
+  "Corrective maintenance"
+],
 
   images: [
-    "RollerDeck_Motor_Repair1.png",
-    "ScissorLift_Roller_Motor_After_Installation.png",
-    "RollerDeck_Motor_Repair2.png",
-    "RollerDeck_Motor_Replacement.png"
+     "RollerDeck_Motor_Replacement.png",
+  "RollerDeck_Motor_Repair1.png",
+  "RollerDeck_Motor_Repair2.png",
+  "RollerDeck_TorqueLimiter_FrictionDiscs.png",
+  "RollerDeck_TorqueLimiter_Repair_Comparison.png",
+  "RollerDeck_TorqueLimiter_After_Repair.png",
+  "ScissorLift_Roller_Motor_After_Installation.png"
   ],
 
   videos: [],
@@ -776,189 +1053,187 @@ const projects = [
 },
 
 {
-  id: 8,
+  id: 6,
 
-  title: "Automated Vehicle Lift Installation & Commissioning Project",
+  title: "Roller Deck Hydraulic Cylinder Reliability Improvement",
 
-  category: [
-    "Vehicle Lift",
-    "Hydraulic",
-    "Commissioning",
-    "Installation"
-  ],
+category: [
+  "Hydraulic",
+  "Roller Deck",
+  "Reliability",
+  "Maintenance"
+],
 
-  folder: "media/project8/",
+folder: "media/project6/",
 
-  hero: "CarLift_During_Comissioning.png",
+hero: "RollerDeck_LiftingCylinder_AfterRepair.png",
+contribution: "Hydraulic Troubleshooting & Reliability Improvement",
+environment: "Cargo Material Handling Operations",
+summary:
+  "Troubleshooting and maintenance improvement for recurring hydraulic-cylinder leakage and weak lifting performance on cargo roller deck systems.",
 
-  summary:
-    "Installation, alignment correction, hydraulic integration, safety validation, and commissioning of an automated vehicle lift system.",
+overview:
+  "Cargo roller decks used multiple hydraulic cylinders to raise and lower transfer rollers during load movement. Repeated leakage and weak lifting behaviour were increasing maintenance intervention and affecting equipment availability, requiring a more systematic approach than replacing individual cylinders whenever a fault occurred.",
 
-  overview:
-    "This project involved the installation and commissioning of an automated vehicle lift system designed to increase parking capacity within a restricted site footprint. The work required mechanical assembly, hydraulic installation, electrical integration, safety verification, and final commissioning under real site constraints.",
+challenge:
+  "The main challenge was that the failures were recurring and could not always be treated as isolated cylinder problems. Cylinder condition, seals, mounting points, hydraulic connections and the behaviour of the complete lifting arrangement all had to be considered before deciding which components required repair or replacement.",
 
-  challenge:
-    "The main challenge was that the project was already partially completed when execution responsibility was taken over. Civil pit work and major structures were already in place, but mechanical, hydraulic, electrical, and commissioning activities still required completion. During execution, dimensional and alignment issues were identified, requiring practical site engineering before safe operation could be achieved.",
+engineering:
+  "The troubleshooting approach focused on the complete lifting assembly. Cylinder leakage, rod and seal condition, hydraulic connections, mounting condition and lifting response were inspected together. Defective cylinders were removed for inspection and repair where practical, then reinstalled and functionally tested to confirm that the roller deck lifted and lowered correctly after restoration.",
 
-  engineering:
-    "The project was approached through site measurement, clearance verification, mechanical alignment checks, hydraulic system inspection, electrical control verification, and safety interlock testing. Civil deviations and clearance issues were reviewed carefully so that the lift platform could travel without rubbing, obstruction, or unsafe movement during operation.",
+execution: [
+  "Inspected roller deck lifting cylinders for external leakage, weak lifting and abnormal operating behaviour.",
+  "Identified defective cylinders requiring removal, repair or replacement.",
+  "Supported removal of affected cylinders from the roller deck assembly.",
+  "Inspected cylinder rods, seals, fittings and mounting points for visible damage or wear.",
+  "Coordinated workshop repair and refurbishment of serviceable cylinders.",
+  "Supported reinstallation or replacement of repaired cylinders.",
+  "Checked hydraulic hoses, fittings and connections for leakage after installation.",
+  "Performed lifting and lowering tests after restoration.",
+  "Monitored repaired assemblies to confirm stable operation after maintenance."
+],
 
-  execution: [
-    "Reviewed existing site condition after taking over the partially completed installation.",
-    "Checked civil pit dimensions, platform clearances, and mechanical alignment requirements.",
-    "Completed mechanical assembly of the vehicle lift platform and associated structures.",
-    "Supported correction of alignment and clearance issues affecting platform travel.",
-    "Installed and verified hydraulic connections, cylinders, hoses, and power pack interfaces.",
-    "Completed electrical wiring, control integration, and operational control checks.",
-    "Verified safety interlocks, limit switches, and emergency protection functions.",
-    "Performed no-load and load movement tests during commissioning.",
-    "Supported final functional testing, client demonstration, and handover readiness."
-  ],
+responsibilities: [
+  "Performed hydraulic troubleshooting on roller deck lifting systems.",
+  "Identified leaking or weak cylinders requiring corrective action.",
+  "Supported cylinder removal and reinstallation activities.",
+  "Coordinated repair and refurbishment with maintenance/workshop personnel.",
+  "Verified mounting condition and hydraulic connections after installation.",
+  "Supported functional testing of the complete lifting arrangement.",
+  "Documented repair activities and monitored post-maintenance performance."
+],
 
-  responsibilities: [
-    "Supported takeover and assessment of the partially completed installation.",
-    "Supervised mechanical installation and alignment verification.",
-    "Checked hydraulic installation and lifting performance.",
-    "Supported electrical wiring, controls, and safety integration.",
-    "Identified site clearance issues and coordinated corrective actions.",
-    "Performed testing and commissioning support.",
-    "Coordinated with client and site teams during final delivery.",
-    "Supported safe operational handover of the vehicle lift system."
-  ],
+results: [
+  "Restored reliable lifting and lowering operation of affected roller decks.",
+  "Reduced recurring leakage by repairing or replacing defective cylinders rather than repeatedly addressing symptoms.",
+  "Improved maintenance decision-making through inspection of the complete lifting arrangement.",
+  "Reduced repeated intervention on previously affected equipment.",
+  "Improved equipment availability following hydraulic restoration."
+],
 
-  results: [
-    "Completed installation and commissioning of the automated vehicle lift system.",
-    "Resolved critical clearance and alignment issues before final operation.",
-    "Integrated mechanical, hydraulic, electrical, and safety systems successfully.",
-    "Restored compliance with practical operating requirements.",
-    "Delivered safe and functional lift operation for the client."
-  ],
+achievement:
+  "This case strengthened my reliability-focused maintenance approach by treating repeated cylinder failures as a system-level troubleshooting problem rather than isolated component faults. Inspecting the cylinders together with their connections, mounting and operating behaviour helped guide repair decisions and supported more stable roller deck operation after maintenance.",
 
-  achievement:
-    "This project demonstrated the ability to take over an incomplete installation, identify site-related issues, coordinate corrective action, and deliver a working automated vehicle lift through multidisciplinary engineering execution. The project combined mechanical alignment, hydraulic integration, electrical control verification, safety validation, and commissioning under site constraints.",
+technologies: [
+  "Cargo roller deck systems",
+  "Hydraulic lifting cylinders",
+  "Hydraulic seals",
+  "Cylinder rods",
+  "Hydraulic hoses and fittings",
+  "Lifting mechanisms",
+  "Industrial material handling equipment"
+],
 
-  technologies: [
-    "Automated vehicle lift",
-    "Hydraulic lifting cylinders",
-    "Hydraulic power pack",
-    "Lift platform structure",
-    "Electrical control system",
-    "Safety interlocks",
-    "Limit switches",
-    "Commissioning procedures"
-  ],
-
-  skills: [
-    "Project takeover",
-    "Mechanical installation",
-    "Hydraulic integration",
-    "Electrical control verification",
-    "Site measurement",
-    "Alignment correction",
-    "Safety validation",
-    "Testing and commissioning",
-    "Client handover support"
-  ],
+skills: [
+  "Hydraulic troubleshooting",
+  "Cylinder leakage diagnosis",
+  "Reliability improvement",
+  "Corrective maintenance",
+  "Repair coordination",
+  "Functional testing",
+  "Mechanical inspection",
+  "Maintenance documentation"
+],
 
   images: [
-    "CarLift_Installation_Initial_Stage.png",
-    "CarLift_Platform_Assembly.png",
-    "CarLift_Platform_Assembly_Installation_Complete.png",
-    "CarLift_Hydraulic_System_Installation.png",
-    "CarLift_RestingBumper_Installation.png",
-    "CarLift_Operational_Panel_Installation.png"
-  ],
+    "RollerDeck_LiftingCylinder_Replacement.png",
+    "RollerDeck_LiftingCylinder_Repair.png",
+    "RollerDeck_LiftingCylinder_Replacement1.png"
+    ],
 
   videos: [],
 
   adminNotes: [
-    "Add platform movement demonstration video if available.",
-    "Add final lift operation video if client-safe.",
-    "Add before/after clearance correction photo if available."
+    "Add cylinder removal video if available.",
+    "Add hydraulic bleeding procedure video if available.",
+    "Add lifting test video after cylinder repair if available."
   ]
 },
-  {
+  
+{
   id: 9,
 
-  title: "Automated Vertical Storage & Retrieval System Installation Project",
+  title: "Automated Vertical Storage System Installation & Commissioning Support",
 
-  category: [
-    "ASRS",
-    "Kardex",
-    "Installation",
-    "Commissioning"
-  ],
+category: [
+  "Vertical Storage",
+  "Installation",
+  "Project Execution",
+  "Commissioning Support"
+],
 
-  folder: "media/project9/",
+folder: "media/project9/",
 
-  hero: "Kardex-After_Installation.png",
+hero: "Kardex-After_Installation.png",
+heroFit: "contain",
+heroPosition: "center center",
+contribution: "Installation Coordination & OEM Support",
+environment: "Industrial Project Site",
+summary:
+  "Site coordination and installation support for a specialized automated vertical storage system delivered with OEM involvement under a compressed project schedule.",
 
-  summary:
-    "Installation and commissioning support for a vertical automated storage and retrieval system within a compressed project schedule.",
+overview:
+  "This project involved installation of an automated vertical storage system for organized, space-efficient storage of tools, components and maintenance materials. The work required coordinated equipment handling, mechanical assembly, electrical integration and functional testing, with specialized installation and commissioning activities carried out together with the OEM team.",
 
-  overview:
-    "This project involved the installation and commissioning support of an automated vertical storage and retrieval system used for organized, space-efficient storage of tools, components, and maintenance materials. The system required coordinated mechanical assembly, electrical integration, equipment handling, and testing within a limited execution window.",
+challenge:
+  "The main challenge was completing the installation within a limited execution window while coordinating OEM specialists, local manpower, lifting equipment, material movement and site requirements. Large structural components and equipment alignment also required careful handling and correct installation sequencing.",
 
-  challenge:
-    "The main challenge was to complete the installation in a compressed schedule while coordinating OEM specialists, local site teams, lifting equipment, material handling, and electrical integration. Since the equipment involved large structural sections and precision alignment, installation quality and sequencing were critical to ensure safe and reliable operation.",
+engineering:
+  "My role focused on enabling the OEM installation team to execute efficiently on site. Components and lifting requirements were coordinated in advance, installation activities were supported according to OEM instructions, and mechanical, electrical and site-interface issues were addressed as they arose. Functional testing and commissioning activities were then supported through to operational readiness.",
 
-  engineering:
-    "The work was approached through detailed installation coordination, equipment staging, mechanical assembly support, and electrical integration checks. Because this was a specialized automated storage system, close coordination with the OEM installation team was required to ensure that assembly, alignment, wiring, and commissioning activities followed the required method while adapting to actual site conditions.",
+execution: [
+  "Coordinated delivery, unloading and movement of vertical storage system components.",
+  "Arranged lifting and access equipment required for installation.",
+  "Coordinated local manpower and site support for the OEM installation team.",
+  "Supported mechanical assembly, positioning and structural alignment activities.",
+  "Assisted with electrical wiring, connection checks and equipment integration.",
+  "Resolved site-support and installation-stage issues in coordination with the OEM team.",
+  "Assisted during functional testing and commissioning activities.",
+  "Supported final verification and handover readiness within the available schedule."
+],
 
-  execution: [
-    "Coordinated delivery, unloading, and movement of vertical storage system components.",
-    "Arranged lifting and access equipment required for installation activities.",
-    "Supported OEM specialists during mechanical assembly and installation.",
-    "Assisted with positioning, structural alignment, and installation sequencing.",
-    "Supported electrical wiring, connection checks, and control system integration.",
-    "Assisted during functional testing and commissioning activities.",
-    "Coordinated site support requirements to maintain progress within the limited schedule.",
-    "Supported final system verification and handover readiness."
-  ],
+responsibilities: [
+  "Coordinated between OEM specialists, local site teams and supporting resources.",
+  "Arranged lifting equipment, manpower and material movement.",
+  "Supported mechanical installation and alignment activities.",
+  "Assisted with electrical integration and functional checks.",
+  "Managed day-to-day site logistics affecting installation progress.",
+  "Supported testing and commissioning activities under OEM guidance.",
+  "Coordinated resolution of installation-stage site issues.",
+  "Supported completion and operational readiness."
+],
 
-  responsibilities: [
-    "Coordinated installation activities between OEM specialists and local site teams.",
-    "Arranged required lifting equipment and site support resources.",
-    "Supported mechanical assembly and alignment activities.",
-    "Assisted with electrical integration and functional verification.",
-    "Handled site logistics and material movement coordination.",
-    "Supported commissioning and operational testing.",
-    "Resolved installation-stage issues to maintain project progress.",
-    "Supported completion and handover within the planned schedule."
-  ],
+results: [
+  "Supported completion of the automated vertical storage system installation within the required execution window.",
+  "Provided the site resources and coordination required for efficient OEM installation.",
+  "Supported mechanical, electrical and functional verification through commissioning.",
+  "Achieved operational readiness through coordinated OEM and local-team execution.",
+  "Completed the installation without overstating local responsibility for OEM-specialist activities."
+],
 
-  results: [
-    "Successfully supported installation of the automated vertical storage system.",
-    "Completed installation and commissioning support within a compressed execution window.",
-    "Improved storage organization and space utilization for the facility.",
-    "Established practical installation experience for future automated storage projects.",
-    "Achieved successful operational readiness through coordinated execution."
-  ],
+achievement:
+  "This project developed my experience in executing specialized equipment installations where the OEM retained specialist technical responsibility while I coordinated the local site environment required for successful delivery. The work combined equipment handling, manpower and lifting coordination, installation support, electrical integration assistance and commissioning support within a compressed schedule.",
 
-  achievement:
-    "This project demonstrated the ability to coordinate specialized OEM-assisted installation under a short schedule while handling mechanical assembly support, electrical integration, lifting equipment coordination, and commissioning support. The successful execution strengthened practical experience in automated storage system installation and multidisciplinary project coordination.",
+technologies: [
+  "Automated vertical storage system",
+  "Kardex-type storage equipment",
+  "Vertical storage carousel",
+  "Mechanical assembly",
+  "Electrical integration",
+  "Lifting and access equipment",
+  "Automated storage equipment"
+],
 
-  technologies: [
-    "Automated vertical storage system",
-    "Vertical ASRS",
-    "Kardex-type storage system",
-    "Mechanical assembly",
-    "Electrical integration",
-    "Lifting equipment",
-    "Commissioning procedures",
-    "Storage and retrieval automation"
-  ],
-
-  skills: [
-    "Installation coordination",
-    "OEM coordination",
-    "Mechanical assembly support",
-    "Electrical integration support",
-    "Site logistics",
-    "Commissioning support",
-    "Material handling planning",
-    "Schedule-focused execution"
-  ],
+skills: [
+  "Project execution",
+  "Installation coordination",
+  "OEM coordination",
+  "Mechanical installation support",
+  "Electrical integration support",
+  "Site logistics",
+  "Commissioning support",
+  "Resource coordination"
+],
 
   images: [
     "Kardex-Installation.png",
@@ -973,408 +1248,102 @@ const projects = [
     "Add commissioning test photo or video if available."
   ]
 },
-
-{
-  id: 10,
-
-  title: "Autonomous Guided Vehicle (AGV) Fleet Operations & Reliability Support",
-
-  category: [
-    "AGV",
-    "Automation",
-    "Fleet",
-    "Maintenance"
-  ],
-
-  folder: "media/project10/",
-
-  hero: "AGV-Automated_Guided_Vehicle.png",
-
-  summary:
-    "Operational support, troubleshooting, navigation recovery, battery management, and reliability maintenance for AGV fleet systems.",
-
-  overview:
-    "This project involved operational and maintenance support for an Automated Guided Vehicle fleet used to transport materials between different operational areas. The AGVs operated through automated navigation, fleet control, safety sensors, battery systems, drive units, and control interfaces, making reliable operation essential for continuous internal logistics movement.",
-
-  challenge:
-    "The main challenge was maintaining AGV availability in a live operational environment where one stopped vehicle could affect material flow and create delays for other vehicles in the fleet. Faults could arise from navigation errors, battery issues, sensor problems, communication interruptions, drive faults, or safety scanner activation, requiring fast and systematic troubleshooting.",
-
-  engineering:
-    "AGV faults were approached by reviewing the alarm condition, identifying the affected vehicle, checking navigation status, battery condition, safety scanner state, drive system condition, and communication feedback. Preventive maintenance and corrective action were combined to reduce repeated faults and maintain stable vehicle movement within the automated fleet system.",
-
-  execution: [
-    "Monitored AGV fleet operation and identified vehicle faults affecting material movement.",
-    "Performed troubleshooting for navigation, positioning, and route-related AGV issues.",
-    "Supported battery inspection, charging checks, and battery replacement activities.",
-    "Checked safety scanners, sensors, and obstruction detection devices during fault recovery.",
-    "Performed drive and movement-related checks on affected AGVs.",
-    "Recovered stopped or faulted AGVs and restored them to automatic operation.",
-    "Supported preventive maintenance activities to reduce repeated vehicle failures.",
-    "Coordinated with operations teams to minimize production or logistics disruption."
-  ],
-
-  responsibilities: [
-    "Provided maintenance and troubleshooting support for AGV fleet operation.",
-    "Diagnosed vehicle alarms, navigation faults, and safety-related stoppages.",
-    "Supported battery management and charging-related maintenance.",
-    "Inspected sensors, scanners, and field devices affecting AGV movement.",
-    "Assisted in recovering faulted vehicles and returning them to service.",
-    "Supported preventive maintenance planning and execution.",
-    "Coordinated with operations during vehicle recovery and route restoration."
-  ],
-
-  results: [
-    "Maintained AGV fleet availability during live operational requirements.",
-    "Reduced operational delays by recovering faulted vehicles quickly.",
-    "Improved fault response through systematic troubleshooting.",
-    "Supported reliable material movement between operating areas.",
-    "Strengthened preventive maintenance practices for AGV systems."
-  ],
-
-  achievement:
-    "This project demonstrated hands-on reliability support for mobile automation systems operating in a live production environment. By combining fault diagnosis, vehicle recovery, battery maintenance, sensor checks, and preventive support, AGV availability and material flow reliability were maintained.",
-
-  technologies: [
-    "Automated Guided Vehicles",
-    "AGV fleet control",
-    "Laser navigation",
-    "Safety scanners",
-    "Battery systems",
-    "Drive motors",
-    "Obstruction sensors",
-    "Industrial automation"
-  ],
-
-  skills: [
-    "AGV troubleshooting",
-    "Fleet reliability support",
-    "Navigation fault recovery",
-    "Battery maintenance",
-    "Sensor inspection",
-    "Preventive maintenance",
-    "Operational coordination",
-    "Automation system support"
-  ],
-
-  images: [
-"AGV_DeadLock_No_Movement_Troubleshooting.png",
-"AGV_Fault_Troubleshooting.png",
-"AGV_Troubleshooting1.png",
-"AGV_Battery_Replacement_Activity.png"
-],
-
-  videos: [],
-
-  adminNotes: [
-    "Add AGV navigation video if available.",
-    "Add battery replacement or charging system photo if available.",
-    "Add AGV control screen photo only if client-safe."
-  ]
-},
-  {
-  id: 11,
-
-  title: "Automated Storage & Retrieval System (ASRS) Operations, Reliability & Troubleshooting Program",
-
-  category: [
-    "ASRS",
-    "Miniload",
-    "Automation",
-    "Troubleshooting"
-  ],
-
-  folder: "media/project11/",
-
-  hero: "Miniload_Crane.png",
-
-  summary:
-    "Operations support, troubleshooting, transaction analysis, preventive maintenance, and reliability improvement for automated storage and retrieval systems.",
-
-  overview:
-    "This project involved operational support and maintenance of an Automated Storage & Retrieval System (ASRS) used for high-speed automated storage operations. The system consisted of miniload cranes, telescopic load handling devices, conveyor interfaces, sensors, drives, PLC controls, and warehouse management integration, requiring continuous monitoring and rapid fault recovery to maintain uninterrupted production.",
-
-  challenge:
-    "The biggest challenge was maintaining high system availability in a fully automated environment where faults could originate from mechanical assemblies, sensors, encoders, PLC sequences, communication interfaces, or warehouse transactions. Because every storage cycle depended on synchronized automation, small failures could quickly affect the entire logistics process.",
-
-  engineering:
-    "Troubleshooting was performed systematically by analysing alarms, transaction history, crane movement, telescopic operation, sensor feedback, PLC logic, and mechanical condition. Preventive maintenance was combined with operational diagnostics to reduce repeat failures and improve overall system reliability.",
-
-  execution: [
-    "Monitored daily ASRS operation and responded to system alarms.",
-    "Diagnosed storage and retrieval failures affecting miniload cranes.",
-    "Verified telescopic extraction mechanisms and load handling performance.",
-    "Checked sensors, encoders, limit switches, and positioning devices.",
-    "Supported troubleshooting of conveyor-to-ASRS interface faults.",
-    "Performed preventive maintenance on mechanical and electrical assemblies.",
-    "Recovered stalled crane operations and restored automatic functionality.",
-    "Verified operational stability after corrective maintenance activities."
-  ],
-
-  responsibilities: [
-    "Supported continuous ASRS operation and fault recovery.",
-    "Investigated automation alarms and transaction failures.",
-    "Performed mechanical and electrical inspections on miniload equipment.",
-    "Supported PLC-based troubleshooting during operational faults.",
-    "Coordinated preventive maintenance activities.",
-    "Verified successful storage and retrieval operations after repairs.",
-    "Documented maintenance activities and recurring fault observations."
-  ],
-
-  results: [
-    "Maintained reliable automated warehouse operation.",
-    "Reduced downtime through structured troubleshooting methods.",
-    "Improved system availability by preventing recurring faults.",
-    "Supported uninterrupted storage and retrieval activities.",
-    "Enhanced long-term reliability through preventive maintenance."
-  ],
-
-  achievement:
-    "This project demonstrates practical expertise in maintaining and troubleshooting complex ASRS installations operating under live production conditions. By combining mechanical diagnostics, automation troubleshooting, preventive maintenance, and operational recovery, high system availability was consistently maintained.",
-
-  technologies: [
-    "Automated Storage & Retrieval System",
-    "Miniload crane",
-    "Telescopic extraction mechanism",
-    "PLC control systems",
-    "Position encoders",
-    "Industrial sensors",
-    "Conveyor interface systems",
-    "Warehouse automation"
-  ],
-
-  skills: [
-    "ASRS troubleshooting",
-    "Automation diagnostics",
-    "Preventive maintenance",
-    "Mechanical inspection",
-    "PLC-based fault analysis",
-    "Warehouse automation support",
-    "Operational recovery",
-    "Reliability engineering"
-  ],
-
-  images: [
-    "Miniload_Crane_Telescope.png",
-    "Miniload_Crane_Bumper_Collision_Troubleshooting.png",
-    "Miniload_Crane_Maintenance_Setup1.png",
-    "Conveyor&Miniload_Monitoring_VisualMap_Fault_Display.png",
-    "Miniload_Crane_MobilePanel_Fault_Troubleshooting.png",
-    "Miniload_Crane_Accident_EquipmentDamaged_Troubleshooting.png",
-    "Miniload_Crane_Not_PickingLoad_Rectified.png"
-  ],
-
-  videos: [],
-
-  adminNotes: [
-    "Add crane movement video if available.",
-    "Add storage/retrieval demonstration if client-safe.",
-    "Add maintenance activity photos in future."
-  ]
-},
-
-{
-  id: 12,
-
-  title: "Automated Electric Monorail System (EMS) Operations, Reliability & Maintenance Program",
-
-  category: [
-    "EMS",
-    "Monorail",
-    "Automation",
-    "Maintenance"
-  ],
-
-  folder: "media/project12/",
-
-  hero: "Electric_Monorail.png",
-
-  summary:
-    "Operations support, preventive maintenance, fault recovery, and reliability improvement for a large-scale automated electric monorail system.",
-
-  overview:
-    "This project involved operational support and maintenance of an automated Electric Monorail System used for internal material movement across production and logistics areas. The system included monorail vehicles, hoist mechanisms, travel drives, communication interfaces, sensors, remote control functions, and automation logic, requiring consistent maintenance and rapid fault recovery to keep material flow stable.",
-
-  challenge:
-    "The main challenge was maintaining reliable EMS operation in a live production environment where vehicle stoppages, hoist issues, communication faults, sensor failures, or drive problems could disrupt material movement. Since vehicles operated on an overhead monorail network, troubleshooting required safe access, careful recovery planning, and accurate fault identification.",
-
-  engineering:
-    "EMS faults were approached through alarm review, vehicle status checks, remote operation verification, travel and hoist mechanism inspection, sensor feedback checks, and communication validation. Preventive maintenance activities were used to reduce recurring failures, while corrective maintenance focused on safe recovery and restoration of automatic operation.",
-
-  execution: [
-    "Monitored EMS vehicle operation and responded to system faults.",
-    "Performed troubleshooting for vehicle travel, hoist, and positioning-related issues.",
-    "Checked remote control operation and manual recovery functions.",
-    "Inspected sensors, limit switches, communication devices, and control interfaces.",
-    "Supported preventive maintenance on monorail vehicles and drive components.",
-    "Recovered stopped vehicles safely and restored automatic operation.",
-    "Verified hoist and travel movement after corrective maintenance.",
-    "Coordinated with operations teams to reduce production impact during EMS faults."
-  ],
-
-  responsibilities: [
-    "Provided maintenance and troubleshooting support for EMS operation.",
-    "Diagnosed faults affecting vehicle movement, hoist operation, and system communication.",
-    "Supported preventive maintenance of monorail vehicles and associated components.",
-    "Performed remote/manual control checks during recovery activities.",
-    "Verified safety and operational readiness after maintenance intervention.",
-    "Coordinated with production and operations teams during equipment recovery.",
-    "Documented recurring faults and supported reliability improvement activities."
-  ],
-
-  results: [
-    "Maintained reliable EMS operation during live production requirements.",
-    "Reduced downtime by restoring faulted vehicles efficiently.",
-    "Improved fault recovery through systematic troubleshooting.",
-    "Supported stable material movement across production and logistics areas.",
-    "Strengthened preventive maintenance practices for automated monorail systems."
-  ],
-
-  achievement:
-    "This project demonstrated hands-on reliability support for an overhead automated transport system operating in a live production environment. By combining preventive maintenance, fault diagnosis, safe vehicle recovery, and operational coordination, EMS availability and material flow reliability were maintained.",
-
-  technologies: [
-    "Electric Monorail System",
-    "Automated monorail vehicles",
-    "Hoist mechanisms",
-    "Travel drive systems",
-    "Remote control operation",
-    "Limit switches",
-    "Industrial sensors",
-    "Automation control systems"
-  ],
-
-  skills: [
-    "EMS troubleshooting",
-    "Automated transport maintenance",
-    "Hoist and travel fault diagnosis",
-    "Remote recovery operation",
-    "Preventive maintenance",
-    "Safety-focused recovery",
-    "Operational coordination",
-    "Reliability support"
-  ],
-
-  images: [
-    "Monorail_SCADA.png",
-    "Electric_Monorail_System_Maintenance_Area.png",
-    "Electric_Monorail_Current_Collectors.png",
-    "Electric_Monorail_Busbar_Track_Switch.png",
-    "Electric_Monorail_DoubleHoist.png",
-    "Electric_Monorail_System1.png",
-    "Monorail_Vehicle_Remote_Control.png",
-    "Electric_Monorail_Workstation.png",
-    "Monorail_Workstation_ServerConnectionLost_Troubleshooting.png",
-    "Monorail_Workstation_Diagnosed_ServerConnectionLost.png",
-    "Monorail_Hoist_FastDoorFault-Troubleshooting.png",
-    "Monorail_Hoist_FastDoor_Panel_Troubleshooting1.png",
-    "Monorail_Hoist_FastDoor_MotorTroubleshooting.png",
-    "Monorail_Hoist_FastDoor_Encoder_Troubleshooting.png",
-    "Monorail_DACO_Communication_Panel_Troubleshooting.png"
-  ],
-
-  videos: [],
-
-  adminNotes: [
-    "Add EMS vehicle movement video if available.",
-    "Add hoist operation photo or video if client-safe.",
-    "Add maintenance activity photos if available."
-  ]
-},
+  
   {
   id: 13,
 
-  title: "Industrial Electric Material Handling Fleet Reliability & Safety Program",
+  title: "Electric Material Handling Equipment Maintenance & Reliability Support",
 
-  category: [
-    "Material Handling",
-    "EPW",
-    "Electric Pallet Jack",
-    "Reliability"
-  ],
+category: [
+  "Material Handling",
+  "Maintenance",
+  "Troubleshooting",
+  "Reliability"
+],
 
-  folder: "media/project13/",
+folder: "media/project13/",
 
-  hero: "Electric_Pallet_Walker.png",
+hero: "Electric_Pallet_Walker.png",
+heroFit: "contain",
+heroPosition: "center center",
+contribution: "Maintenance & Electromechanical Troubleshooting",
+environment: "Warehouse & Logistics Operations",
+summary:
+  "Preventive maintenance, troubleshooting and repair support for electric pallet trucks, pallet walkers and related warehouse material handling equipment.",
 
-  summary:
-    "Maintenance, troubleshooting, refurbishment, and reliability improvement of industrial electric material handling equipment including EPWs, electric pallet trucks, and warehouse transport vehicles.",
+overview:
+  "This experience involved routine maintenance and fault recovery for electric material handling equipment used in warehouse and logistics operations. Equipment included electric pallet trucks, pallet walkers and related transport units incorporating battery systems, drive motors, hydraulic lifting mechanisms, steering, brakes, controllers and field components.",
 
-  overview:
-    "This project involved preventive maintenance, corrective maintenance, fault diagnosis, refurbishment, and operational support for industrial electric material handling equipment used in warehouse and logistics environments. The objective was to maximize fleet availability while ensuring operator safety and minimizing equipment downtime.",
+challenge:
+  "The equipment operated continuously under warehouse loading conditions, so faults could involve electrical connections, batteries, drive systems, hydraulics, steering, brakes, wheels or mechanical wear. Troubleshooting had to identify the actual failed area while ensuring the equipment was safe before returning it to operators.",
 
-  challenge:
-    "Material handling equipment operates continuously under heavy loading conditions and is exposed to electrical faults, hydraulic problems, steering issues, drive failures, battery degradation, and mechanical wear. The challenge was to quickly identify root causes, restore equipment safely, and reduce repeat failures without unnecessary replacement of expensive components.",
+engineering:
+  "Maintenance was approached by starting with the reported symptom and checking the relevant electrical, hydraulic and mechanical systems. Battery condition and connections, drive and steering components, lifting mechanisms, sensors, wiring and visible mechanical wear were inspected as applicable. Serviceable parts were repaired or reused where practical, followed by functional and safety checks before release to operation.",
 
-  engineering:
-    "Maintenance activities followed a structured engineering approach involving fault diagnosis, electrical inspection, hydraulic verification, mechanical assessment, battery system checks, controller evaluation, and operational testing. Instead of replacing assemblies blindly, component-level analysis was performed wherever practical to improve reliability while controlling maintenance cost.",
+execution: [
+  "Performed preventive maintenance on electric pallet trucks, pallet walkers and warehouse handling equipment.",
+  "Diagnosed electrical, hydraulic and mechanical faults affecting lifting and travel.",
+  "Checked batteries, charging connections and associated electrical wiring.",
+  "Inspected drive motors, steering, brakes, wheels and travel-related components.",
+  "Troubleshot hydraulic lifting faults, leakage and hoisting problems.",
+  "Checked controllers, sensors and field wiring during fault investigation where applicable.",
+  "Supported repair, refurbishment and reuse of serviceable components.",
+  "Replaced worn or damaged mechanical components such as load wheels where required.",
+  "Performed operational and safety checks before returning equipment to service."
+],
 
-  execution: [
-    "Performed preventive maintenance on electric pallet trucks and warehouse handling equipment.",
-    "Diagnosed electrical, hydraulic, mechanical, and drive-related failures.",
-    "Rectified lifting and hoisting faults affecting daily warehouse operations.",
-    "Inspected battery systems, charging circuits, and electrical connections.",
-    "Checked drive motors, steering mechanisms, brakes, and travel systems.",
-    "Performed controller, sensor, and wiring inspections during fault recovery.",
-    "Supported refurbishment and repair of reusable components.",
-    "Verified equipment performance through operational testing before release to service."
-  ],
+responsibilities: [
+  "Performed routine preventive and corrective maintenance activities.",
+  "Investigated lifting, travel, steering and electrical faults.",
+  "Supported battery inspection, charging and replacement activities.",
+  "Performed hydraulic and mechanical inspection during fault recovery.",
+  "Supported repair and reuse of serviceable components.",
+  "Verified equipment function and safe operation after maintenance.",
+  "Recorded maintenance findings and completed work."
+],
 
-  responsibilities: [
-    "Performed daily troubleshooting and maintenance activities.",
-    "Supported preventive maintenance planning and execution.",
-    "Diagnosed lifting, travel, steering, and electrical faults.",
-    "Verified safe operation before equipment handover.",
-    "Reduced downtime through practical root cause identification.",
-    "Supported refurbishment and reuse of serviceable components.",
-    "Maintained maintenance records and operational observations."
-  ],
+results: [
+  "Restored affected equipment to operational condition following maintenance and repair.",
+  "Resolved electrical, hydraulic and mechanical faults affecting daily warehouse use.",
+  "Supported equipment availability through preventive maintenance and timely fault response.",
+  "Recovered serviceable components where repair or reuse was practical.",
+  "Improved maintenance consistency through structured inspection and operational verification."
+],
 
-  results: [
-    "Improved operational availability of the material handling fleet.",
-    "Reduced downtime caused by recurring electrical and hydraulic faults.",
-    "Extended equipment service life through refurbishment and preventive maintenance.",
-    "Improved operator confidence through reliable equipment performance.",
-    "Reduced unnecessary replacement costs through component-level diagnosis."
-  ],
+achievement:
+  "This experience strengthened my practical maintenance foundation across electrical, hydraulic and mechanical systems. Working on mobile warehouse equipment required diagnosing the reported symptom, checking the complete operating mechanism and verifying safety before release, rather than treating each fault as an isolated component replacement.",
 
-  achievement:
-    "This project demonstrates practical industrial maintenance capability across electrical, hydraulic, and mechanical systems supporting mission-critical warehouse operations. By combining preventive maintenance with structured troubleshooting and reliability-focused repairs, equipment availability and long-term operational performance were significantly improved.",
+technologies: [
+  "Electric pallet trucks",
+  "Electric pallet walkers (EPW)",
+  "Industrial batteries",
+  "Electric drive motors",
+  "Hydraulic lifting systems",
+  "Electronic controllers",
+  "Steering and braking systems",
+  "Warehouse material handling equipment"
+],
 
-  technologies: [
-    "Electric pallet trucks",
-    "Electric pallet walkers (EPW)",
-    "Industrial batteries",
-    "DC drive motors",
-    "Hydraulic lifting systems",
-    "Electronic controllers",
-    "Warehouse material handling equipment",
-    "Industrial electrical systems"
-  ],
-
-  skills: [
-    "Electrical troubleshooting",
-    "Hydraulic diagnostics",
-    "Preventive maintenance",
-    "Corrective maintenance",
-    "Root cause analysis",
-    "Fleet reliability improvement",
-    "Component refurbishment",
-    "Operational safety verification"
-  ],
+skills: [
+  "Electromechanical troubleshooting",
+  "Hydraulic troubleshooting",
+  "Preventive maintenance",
+  "Corrective maintenance",
+  "Battery maintenance",
+  "Mechanical inspection",
+  "Component repair and replacement",
+  "Operational safety verification"
+],
 
   images: [
-    "Battery_Kept_Ready_for_Disposal.png",
-    "Electric_Jack_Troubleshooting.png",
-    "Electric_Pallet_Jack_LoadWheel_Replacement_activity.png",
-    "Electric_PalletJack_After_Maintenance.png",
-    "EPW_Battery_Charging&Replacement_Station.png",
-    "VNA.png",
-    "EPW_HoistingIssue_Diagnosed&Rectified.png",
-    "EPW_Troubleshooting.png",
-    "EPW_Hydraulic&Traction_Setup.png",
-    "EPW_OilLeak_&Load_Wheel_Replacement_Activity.png",
-    "Rusted_EPW_Forks.png",
-    "EPW_Troubleshooting2.png"
+  "Electric_PalletJack_After_Maintenance.png",
+  "Electric_Jack_Troubleshooting.png",
+  "EPW_Hydraulic&Traction_Setup.png",
+  "EPW_OilLeak_&Load_Wheel_Replacement_Activity.png",
+  "Electric_Pallet_Jack_LoadWheel_Replacement_activity.png",
+  "EPW_HoistingIssue_Diagnosed&Rectified.png",
+  "EPW_Battery_Charging&Replacement_Station.png",
+  "Battery_Kept_Ready_for_Disposal.png"
   ],
 
   videos: [],
