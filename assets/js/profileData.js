@@ -20,7 +20,7 @@ subtitle:
 
   experience: "10+ Years",
 
-  resume: "documents/Amir_Hussain_Shaik_CV.pdf",
+  resume: "documents/Amir Hussain Shaik CV.pdf",
 
   portfolio: "documents/Amir_Hussain_Shaik_Engineering_Project_Portfolio.pdf",
 
